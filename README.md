@@ -1,5 +1,6 @@
 # Containing Files
 
+
 1. The LICENSE file:
 In most cases, the license for SAP sample projects is `Apache 2.0`.
 
