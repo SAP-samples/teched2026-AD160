@@ -25,6 +25,9 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 
 > **📌 Replace the three digits to get your group number `###`:**
 >  - `ZAD160_AI_DEMO_###` → 001 → 041 → SAP TechEd Berlin, October 27-29, 2026
+<!--
+>  - `ZAD160_AI_DEMO_###` → 001 → 041 → SAP ASUG Tech Connect, Fort Worth, November 2-4, 2026
+-->
 
 ---
 
@@ -39,12 +42,12 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
   </tr>
   <tr>
     <td>SAP BAIP, ABAP environment - <b>T02</b> -</td>
-    <td> ⚠ System URL will be provided by your instructors ⚠</td>
+    <td> ⚠ The SAP system URL will be provided by your instructors! ⚠</td>
     <!-- https://url.sap/vq6gf5 -->
   </tr>
   <tr>
     <td>User</td>
-    <td>ad160-###@education.cloud.sap (where `###` is your assigned suffix)</td>
+    <td>ad160-###@education.cloud.sap (where '###' is your assigned suffix)</td>
   </tr>
   <tr>
     <td>Password</td>
@@ -52,8 +55,8 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
   </tr>
   <tr>
     <td>Exercise Package</td>
-    <td>ZAD160_AI_DEMO_### (where `###` is your assigned suffix)
-      <br/><br><i>Don't forget to replace all occurences of the placeholder ### with your assigned location and group number in the exercise steps below.</i></td>
+    <td>ZAD160_AI_DEMO_### (where '###' is your assigned group ID)
+      <br/><br><i>Don't forget to replace all occurences of the placeholder '###' with your assigned location and group number in the exercise steps below.</i></td>
   </tr>
 </table>
 
@@ -101,7 +104,7 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 
  ![VS Code shortcut on your laptop](images/ex0_vs_code_open_desktop.png)
 
-  > ℹ️ **NOTE**: The [**ABAP Development Tools (ADT) for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension is also already installed into your Visual Studio Code installation. This extension enables you for ABAP development and contains the built-in ADT MCP Server with the ADT MCP Tools.
+  > ℹ️ **NOTE**: The [**ADT**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension is also already installed into your Visual Studio Code installation. This extension enables you for ABAP development and contains the built-in ADT MCP Server with the ADT MCP Tools.
 
 </details>
 
@@ -194,7 +197,7 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 <details>
   <summary>🔵 Click to expand!</summary>
 
-### Option A: HTTP destination (Cloud systems)
+### Option A: Destination for Cloud systems
 
 1. Open the **Command Palette** using **`Ctrl+Shift+P`**.
 
@@ -233,7 +236,7 @@ The destination appears in the workspace.
    ```
 
 <!--
-### Option B: RFC destination (On-premise systems)
+### Option B: Destination for classic SAP systems)
 
 > ℹ️ **Prerequisite**: Your system must be configured and added in **SAP Logon pad** (SAP GUI) with RFC connectivity before proceeding.
 
@@ -285,7 +288,9 @@ The destination appears in the workspace.
 
 ### Add the destination to your workspace
 
-> ⚠️ **Important**: If you have already added the destination to your workspace, you can skip the following steps.  If you miss the destination in your workspace in the **Explorer**, you need to follow the following steps:
+> ⚠️ **Important**:  
+> - If you have already added the destination to your workspace, you can skip the following steps.  
+> - If you miss the destination in your workspace in the **Explorer**, you need to follow the following steps:
 
 1. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).
 
@@ -313,7 +318,7 @@ The destination appears in the workspace.
    The **Welcome to ABAP_TARGET2!** page is opened.  
    ![System overview](images/ex0_target2_page.png)
 
-4. Choose **'tdct3ched2.accounts.ondemand.com'**.  
+4. Choose the link to **'tdct3ched2.accounts.ondemand.com'**.  
    The **Sign In** page is opened.
 
    ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
@@ -374,7 +379,7 @@ As the ABAP environment is shared by many participants, every artifact you creat
 <details>
   <summary>🔵 Click to expand</summary>
 
-1. Choose **Ctrl+Shift+A** to search and to open it.
+1. Choose **`Ctrl+Shift+A`** to search and to open it.
 
 2. Enter the **`ZAD160_AI_DEMO_###`** for the name of your ABAP package.
 
@@ -534,9 +539,11 @@ You have the following possiblities:
 [^Top of page](#)
 
 You have successfully:
+<!--
 - Installed Visual Studio Code
 - Installed the ABAP Development Tools extension for Visual Studio Code (which includes the ADT MCP Server)
 - Defined your group ID (`###`) for artifact naming
+-->
 - Created an HTTP destination and connected Visual Studio Code to your ABAP Cloud system
 - Added the destination to your workspace and authenticated
 - Explored the key Visual Studio Code areas for ABAP development
