@@ -24,7 +24,7 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 > We’ve got sessions running in several locations. Please pick the one that’s right for you!
 
 > **📌 Replace the three digits to get your group number `###`:**
->  - `ZAD160_AI_DEMO_###` → 001 → 040 → SAP TechEd Berlin, October 27-29, 2026
+>  - `ZAD160_AI_DEMO_###` → 001 → 041 → SAP TechEd Berlin, October 27-29, 2026
 
 ---
 
@@ -152,16 +152,16 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 1. Open **Visual Studio Code**.
 
 2. To open the **Extensions** view ...  
-   a. Choose **'Ctrl+Shift+X'** (macOS: **'Cmd+Shift+X'**), or  
+   a. Choose **`Ctrl+Shift+X`** (macOS: **`Cmd+Shift+X`**), or  
    b. Click the **Extensions** icon in the **Activity Bar** (left edge)
 
       ![Sample of the downloaded installer in a default folder](images/vs_code_install_adt_extensions.png)
 
-3. In the input field on top of the view, type and search for **'ABAP Development Tools'**.
+3. In the input field on top of the view, type and search for **`ABAP Development Tools`**.
 
       ![Your search criteria in the input field](images/ex0_extension_installation.png)
 
-4. Select the **'ABAP Development Tools for VS Code'** extension published by **SAP** and click **Install**.
+4. Select the **`ABAP Development Tools for VS Code`** extension published by **SAP** and click **Install**.
 
       ![Display of the ADT Extension in the Visual Studio Marketplace](images/ex0_extension_installation_search.png)
 
@@ -171,8 +171,8 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 ![Display of the successfully installed ADT Extension in Visual Studio Code](images/ex0_adt_ext_installed.png)  
 
-   > ✅ **Success**: In the **Extensions** activity bar, you should see the 'ABAP Development Tools' item listed under **Installed** extensions.   
-   > Alternatively, you can enter '@installed' in the input field. You then get a list with the installed extensions.
+   > ✅ **Success**: In the **Extensions** activity bar, you should see the `ABAP Development Tools` item listed under **Installed** extensions.   
+   > Alternatively, you can enter `@installed` in the input field. You then get a list with the installed extensions.
   ![ADT Extension in the Microsoft Marketplace](images/ex0_adt_marketplace.png)
    
 </details>
@@ -196,15 +196,15 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 ### Option A: HTTP destination (Cloud systems)
 
-1. Open the **Command Palette** using **'Ctrl+Shift+P'**.
+1. Open the **Command Palette** using **`Ctrl+Shift+P`**.
 
-2. Type 'ABAP: New Destination' and select **'ABAP: New Destination...'**.
+2. Type 'ABAP: New Destination' and select **`ABAP: New Destination...`**.
 
 3. Select **HTTP** as the connection type.
 
 4. Enter the ABAP service instance URL as the **System URL** of your ABAP Cloud system.
 
-5. Press **Enter**, then type a short **ID** for this destination (e.g., 'AD160'<!-- 'RAP130'-->).
+5. Press **Enter**, then type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
 
 6. Press **Enter**. 
 
@@ -237,9 +237,9 @@ The destination appears in the workspace.
 
 > ℹ️ **Prerequisite**: Your system must be configured and added in **SAP Logon pad** (SAP GUI) with RFC connectivity before proceeding.
 
-1. Open the **Command Palette** using **'Ctrl+Shift+P'**.
+1. Open the **Command Palette** using **`Ctrl+Shift+P`**.
 
-2. Type 'ABAP: New Destination' and select **'ABAP: New Destination...'**.
+2. Type 'ABAP: New Destination' and select **`ABAP: New Destination...`**.
 
 3. Select **RFC** as the connection type.
 
@@ -247,9 +247,9 @@ The destination appears in the workspace.
 
 5. Enter your **user name** and press **Enter**.
 
-6. Enter the **client number** (e.g., '100') and press **Enter**.
+6. Enter the **client number** (e.g., `100`) and press **Enter**.
 
-7. Enter your **logon language** (e.g., 'EN') and press **Enter**.
+7. Enter your **logon language** (e.g., `EN`) and press **Enter**.
 
 8. Confirm or edit the name of destination.
 
@@ -287,9 +287,9 @@ The destination appears in the workspace.
 
 > ⚠️ **Important**: If you have already added the destination to your workspace, you can skip the following steps.  If you miss the destination in your workspace in the **Explorer**, you need to follow the following steps:
 
-1. Open the **Command Palette** using **'Ctrl+Shift+P'** (macOS: **'Cmd+Shift+P'**).
+1. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).
 
-2. Type 'ABAP: Add Destination as Folder' and select **'ABAP: Add Destination as Folder to the Workspace...'**.
+2. Type 'ABAP: Add Destination as Folder' and select **`ABAP: Add Destination as Folder to the Workspace...`**.
 
 3. Select your newly created destination.
 
@@ -313,7 +313,7 @@ The destination appears in the workspace.
    The **Welcome to ABAP_TARGET2!** page is opened.  
    ![System overview](images/ex0_target2_page.png)
 
-4. Choose 'tdct3ched2.accounts.ondemand.com'.  
+4. Choose **'tdct3ched2.accounts.ondemand.com'**.  
    The **Sign In** page is opened.
 
    ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
@@ -338,19 +338,19 @@ The destination appears in the workspace.
 
 As the ABAP environment is shared by many participants, every artifact you create follows a naming pattern using a personal suffix.
 
-> ℹ️ **NOTE**: The group ID can contain **a maximum of 3 characters (numbers and/or letters)** — e.g. '123', 'XY1', or 'ABC'.
+> ℹ️ **NOTE**: The group ID can contain **a maximum of 3 characters (numbers and/or letters)** — e.g. `123`, `XY1`, or `ABC`.
 
-> ⚠️ Do **not** use the group ID **'000'**. Choose your initials or a number combination that is unique to you.  
+> ⚠️ Do **not** use the group ID **`000`**. Choose your initials or a number combination that is unique to you.  
 
-> ⚠️ Replace the placeholder **'###'** in all package names and object names throughout the exercises with your group ID.
+> ⚠️ Replace the placeholder **`###`** in all package names and object names throughout the exercises with your group ID.
 
 **Check for already-used group IDs:**
 
-1. Once Visual Studio Code is connected, open the **Command Palette** with **'Ctrl+Shift+P'** (macOS: **'Cmd+Shift+P'**).
+1. Once Visual Studio Code is connected, open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).
 
-2. Type **'>ABAP: Open Object'** and press **Enter**.
+2. Type **`>ABAP: Open Object`** and press **Enter**.
 
-3. Search for **'ZAD160_AI_DEMO_###'**, replacing '###' with your chosen suffix.  
+3. Search for **`ZAD160_AI_DEMO_###`**, replacing `###` with your chosen suffix.  
    > ℹ️ **NOTE**: If results appear, the group ID is already taken — try another one.
 
 4. _No results_ means the group ID is available. 
@@ -365,18 +365,18 @@ As the ABAP environment is shared by many participants, every artifact you creat
 ## Exercise 0.4: Open your ABAP Package 
 [^Top of page](#)
 
-> For this tutorial, the ABAP package 'ZAD160_AI_DEMO_###' has already been created for you.
+> For this tutorial, the ABAP package `ZAD160_AI_DEMO_###` has already been created for you.
 
 > ℹ️ **Note**:
-> - Replace **'###'** with your group ID.
-> - The screenshots are based on package 'ZRAP130_AI_###', but you will complete the tutorial in package 'ZAD160_AI_DEMO_###'.
+> - Replace **`###`** with your group ID.
+> - The screenshots are based on package `ZRAP130_AI_###`, but you will complete the tutorial in package `ZAD160_AI_DEMO_###`.
 
 <details>
   <summary>🔵 Click to expand</summary>
 
 1. Choose **Ctrl+Shift+A** to search and to open it.
 
-2. Enter the **'ZAD160_AI_DEMO_###'** for the name of your ABAP package.
+2. Enter the **`ZAD160_AI_DEMO_###`** for the name of your ABAP package.
 
 3. Select the relevant package in the proposal list.
 
@@ -426,23 +426,23 @@ The package will be opened in the **Explorer**.
  
    [Open the command palette to start object creation](images/ex01_create_object_command_pallette.png)
 
-3. Type **'package'** and select **Package Type: DEVC/K** from the list.
+3. Type 'package' and select **`Package Type: DEVC/K`** from the list.
 
    [Package type selection](images/ex01_create_object_package.png)
 
 4. Enter the following details:
-   - **Name**: 'ZAD160_AI_DEMO_###' (replace '###' with your group ID)
-   - **Description**: 'RAP AI Package ###'
-   - **Super Package**: 'ZLOCAL'
+   - **Name**: `ZAD160_AI_DEMO_###` (replace `###` with your group ID)
+   - **Description**: `RAP AI Package ###`
+   - **Super Package**: `ZLOCAL`
    - **Software Component**: - (Leave this field blank!)
 
    [Sample where to enter the package name ](images/ex01_create_object_name.png)
 
 5. Click **Enter** to trigger the package creation.
    
-6. Verify the package **'ZAD160_AI_DEMO_###'** if it appears in the **Explorer** under 'ZLOCAL'.
+6. Verify the package **`ZAD160_AI_DEMO_###`** if it appears in the **Explorer** under `ZLOCAL`.
 
->ℹ️ **Note**: If the packge does **not** appear in the **Explorer**, open the **Command Palette** with **'Ctrl+Shift+P'** (macOS: **'Cmd+Shift+P'**). Type '>ABAP: Add Package as Folder to Workspace' and press **Enter**. Select then the relevant destination from proposal list and confirm with **Enter**. 
+>ℹ️ **Note**: If the packge does **not** appear in the **Explorer**, open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**). Type '>ABAP: Add Package as Folder to Workspace' and press **Enter**. Select then the relevant destination from proposal list and confirm with **Enter**. 
 
 </details>
 
@@ -456,14 +456,14 @@ Open ADT for VS Code and get familiar with the [ADT extension](https://help.sap.
 
 <details>
  <summary>🔵 Click to expand!</summary>
-1. Open the **Command Palette** (**'Ctrl+Shift+P'**) and type 'ABAP'.  
+1. Open the **Command Palette** (**`Ctrl+Shift+P`**) and type `ABAP`.  
 
 You should see ABAP-specific commands such as:
-  - 'ABAP: New Destination...'  
-  - 'ABAP: Add Destination as Folder to Workspace' 
-  - 'ABAP: Open Object...' 
-  - 'ABAP: Create New ABAP Object...' 
-  - 'ABAP: Activate'  
+  - `ABAP: New Destination...`  
+  - `ABAP: Add Destination as Folder to Workspace` 
+  - `ABAP: Open Object...` 
+  - `ABAP: Create New ABAP Object...` 
+  - `ABAP: Activate`  
   - ...
 
 
@@ -502,17 +502,17 @@ You should see ABAP-specific commands such as:
 
 | Action | Windows/Linux | macOS |
 |--------|---------------|-------|
-| Command Palette | **'Ctrl+Shift+P'** | **'Cmd+Shift+P'** |
-| Open ABAP Object | **'Ctrl+Shift+A'** | **'Cmd+Shift+A'** |
-| Create ABAP Object | **'Ctrl+Shift+Alt+N'** | **'Cmd+Shift+Option+N'** |
-| Activate object | **'Ctrl+F3'** | **'Cmd+F3'** |
-| Activate all inactive objects | **'Ctrl+Shift+F3'** | **'Cmd+Shift+F3'** |
-| Save | **'Ctrl+S'** | **'Cmd+S'** |
-| Find/Replace | **'Ctrl+H'** | **'Cmd+H'** |
-| Run ABAP Unit Tests | **'Ctrl+Shift+F10'** | **'Cmd+Shift+F10'** |
-| Open Documentation | **'Ctrl+Shift+D'** | **'Cmd+Shift+D'** |
+| Command Palette | **`Ctrl+Shift+P`** | **`Cmd+Shift+P`** |
+| Open ABAP Object | **`Ctrl+Shift+A`** | **`Cmd+Shift+A`** |
+| Create ABAP Object | **`Ctrl+Shift+Alt+N`** | **`Cmd+Shift+Option+N`** |
+| Activate object | **`Ctrl+F3`** | **`Cmd+F3`** |
+| Activate all inactive objects | **`Ctrl+Shift+F3`** | **`Cmd+Shift+F3`** |
+| Save | **`Ctrl+S`** | **`Cmd+S`** |
+| Find/Replace | **`Ctrl+H`** | **`Cmd+H`** |
+| Run ABAP Unit Tests | **`Ctrl+Shift+F10`** | **`Cmd+Shift+F10`** |
+| Open Documentation | **`Ctrl+Shift+D`** | **`Cmd+Shift+D`** |
 
-> ℹ️ **Hint**: Use **Find/Replace** (**'Ctrl+H'**) to replace all occurrences of '###' with your group ID at once in any file. For more information, see [Keyboard Shortcuts for ABAP Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/keyboard-shortcuts-for-abap-development)
+> ℹ️ **Hint**: Use **Find/Replace** (**`Ctrl+H`**) to replace all occurrences of `###` with your group ID at once in any file. For more information, see [Keyboard Shortcuts for ABAP Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/keyboard-shortcuts-for-abap-development)
 
 ### Navigating within your ABAP system
 
@@ -522,9 +522,9 @@ You have the following possiblities:
 
 2. Navigate through the package hierarchy to find ABAP development objects.
 
-3. Use **'Ctrl+Shift+A'** to quickly open any object by name — you can use wildcards like 'ZAD160_*###'.
+3. Use **`Ctrl+Shift+A`** to quickly open any object by name — you can use wildcards like `ZAD160_AI_DEMO_###`.
 
-4. Objects with unsaved backend changes are marked **(L)** — they must be **activated** (**'Ctrl+F3'**) to become active in the ABAP system.
+4. Objects with unsaved backend changes are marked **(L)** — they must be **activated** (**`Ctrl+F3`**) to become active in the ABAP system.
 
 </details>
 
@@ -536,7 +536,7 @@ You have the following possiblities:
 You have successfully:
 - Installed Visual Studio Code
 - Installed the ABAP Development Tools extension for Visual Studio Code (which includes the ADT MCP Server)
-- Defined your group ID ('###') for artifact naming
+- Defined your group ID (`###`) for artifact naming
 - Created an HTTP destination and connected Visual Studio Code to your ABAP Cloud system
 - Added the destination to your workspace and authenticated
 - Explored the key Visual Studio Code areas for ABAP development
