@@ -332,6 +332,7 @@ The destination appears in the workspace.
 
 > ℹ️ **NOTE**: For the SAP events, the group ID will be provided by the instructor. Use the given group ID for system logon, ABAP package name, and as suffix for the development objects to be created!
 
+<!--
 <details>
   <summary>🔵 Click to expand!</summary>
 
@@ -343,7 +344,6 @@ As the ABAP environment is shared by many participants, every artifact you creat
 
 > ⚠️ Replace the placeholder **'###'** in all package names and object names throughout the exercises with your group ID.
 
-<!--
 **Check for already-used group IDs:**
 
 1. Once Visual Studio Code is connected, open the **Command Palette** with **'Ctrl+Shift+P'** (macOS: **'Cmd+Shift+P'**).
@@ -355,9 +355,10 @@ As the ABAP environment is shared by many participants, every artifact you creat
 
 4. _No results_ means the group ID is available. 
    > ℹ️ **NOTE**: Note it down and use it consistently throughout all exercises.
--->
 
 </details>
+
+-->
 
 ---
 
