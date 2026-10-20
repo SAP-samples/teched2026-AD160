@@ -2,8 +2,7 @@
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-ad160)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-ad160)
 
-# AD160 (aka RAP130) - Build SAP Fiori Elements Apps with ABAP Cloud and SAP Joule for Developers, ABAP AI Capabilities in ABAP Development Tools for Visual Studio Code
-
+# AD160 (aka RAP130) - Build apps and web APIs with ABAP Cloud using agentic AI
 ## Description
 
 This repository contains the material for the hands-on session **AD160 (aka RAP130) - Build SAP Fiori Elements Apps with ABAP Cloud and SAP Joule for Developers in ABAP Development Tools in Visual Studio Code**.
@@ -18,10 +17,11 @@ You will build a transactional SAP Fiori elements app for travel management usin
 - [How to obtain support](#how-to-obtain-support)
 - [Further Information](#further-information)
 
+<!--
 ## Requirements
 
 To complete the practical exercises, you need:
-<!--
+
 > - Download and install [**Visual Studio Code** (VS Code)](https://code.visualstudio.com) in accordance to your operating system.
 > - Download and install the **ABAP Development Tools extension** (a.k.a. ABAP development tools for Visual Studio Code—that includes the built-in ADT MCP Server—from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode).  
 > ℹ️ **Note**:  The extension already contains the built-in ADT MCP Server. The installation steps are described in the tutorial [ABAP Development Tools for Visual Studio Code](https://developers.sap.com/tutorials/abap-environment-adt-vscode?from=abap-development-tools-for-visual-studio-code). Ensure that you have completed this tutorial in advance.  
@@ -29,17 +29,14 @@ To complete the practical exercises, you need:
 > - Install a **coding agent** extension in Visual Studio Code that supports a virtual workspace file system. It is required to call ADT MCP tools and read/edit ABAP files. 
 > A **coding agent** extension in Visual Studio Code that supports Visual Studio Code's virtual workspace filesystem — required to call MCP tools and read/edit ABAP files. 
  > ℹ️ **Note**:  **GitHub Copilot** is the primary tested agent and the one used and recommended for this tutorial.
--->
+
 > - Connect your client with the ABAP system* by creating and adding a destination to your workspace.  
 > ℹ️ **Note**:  (*) Only SAP Business AI ABAP environment, SAP S/4HANA Cloud Public Edition, SAP S/4HANA Cloud Private 2025, 2023, 2022, 2021 Edition are currently supported.
 
-<!--
 >- Ensure that [SAP Joule for developers, ABAP AI capabilities](https://me.sap.com/notes/3571857) has been enabled.  
 >- Ensure that the [ABAP Flight Reference Scenario](https://github.com/SAP-samples/abap-platform-refscen-flight) has been imported using abapgit and the data has been generated.
-
-
 -->
->
+
 >> #### ⚠ Exception regarding SAP-led events, such as "ABAP Developer Day", "SAP TechEd", "SAP CodeJam", and so on:
 >> → A dedicated ABAP system* for the hands-on session participants will be provided.  
 >> → At dedicated SAP events, SAP will provide laptops. In this case, all the relevant software is already installed. This also includes a license for **GitHub Copilot** extension as **coding agend** in Visual Studio Code.  
