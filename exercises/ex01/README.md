@@ -5,7 +5,7 @@
 ## Introduction
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) is an open-source standard that allows AI models to securely communicate with external tools, applications, and data sources through a common protocol.
 
-The ADT extension contains the ADT MCP server that provides the  ADT MCP tools. Theses tools connect your ABAP system through the ADT language server to execute the relevant functionalities in the backend. 
+The **ABAP Development Tools for VS Code** (ADT) extension contains the ADT MCP server that provides the  ADT MCP tools. Theses tools connect your ABAP system through the ADT language server to execute the relevant functionalities in the backend. 
 
 In this exercise, you will use **your coding agent in agent mode** together with the ADT MCP tools to:
 1. Create your ABAP package.
@@ -36,9 +36,9 @@ To use the ADT MCP tools in ADT for VS Code, the ADT MCP server needs to run. To
 
 ## Exercise 1.1: Verify the Enablement of the ADT MCP Server
 
-The **ADT MCP Server** is a local HTTP server that is integrated in and runs inside the **ABAP Development Tools for Visual Studio Code** extension. It implements the Model Context Protocol (MCP) to call tools in a structured, authenticated way.
+The **ADT MCP Server** is a local HTTP server that is integrated in and runs inside the ADT extension. It implements the Model Context Protocol (MCP) to call tools in a structured, authenticated way.
 
-When enabled, the ADT MCP server exposes a set of ABAP development tools to any MCP-compatible AI assistant. In this workshop, the exercises use **GitHub Copilot** (see [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/get-started/quickstart)) as the client. Any coding agent that supports Visual Studio Code's virtual workspace filesystem is compatible — GitHub Copilot is confirmed; others are also supported.
+When enabled, the ADT MCP server exposes a set of ABAP development tools to any MCP-compatible AI assistant. In this workshop, the exercises use **GitHub Copilot** (see [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/get-started/quickstart)) as the coding agent. Any coding agent that supports Visual Studio Code's virtual workspace filesystem is compatible — GitHub Copilot is confirmed; others are also supported.
 
 The ADT MCP Server exposes ABAP development capabilities as MCP tools allowing you to create packages, to create transport requests, to generate complete RAP applications, activate objects, and more through natural language prompts. 
 
