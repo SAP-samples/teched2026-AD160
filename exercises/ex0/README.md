@@ -71,7 +71,7 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 - [0.1 - Open Visual Studio Code](#exercise-01-open-visual-studio-code)
 - [0.2 - Connect Visual Studio Code to Your ABAP Cloud System](#exercise-02-connect-visual-studio-code-to-your-abap-system)
 - [0.3 - Handle your Group ID](#exercise-03-handle-your-group-id)
-- [0.4 - Open your ABAP Package](#exercise-04-Open-your-abap-package)
+- [0.4 - Open your ABAP Package](#exercise-04-open-your-abap-package)
 - [0.5 - Verify the Installation](#exercise-05-verify-the-installation)
 - [0.6 - Explore the User Interface of Visual Studio Code User for ABAP Development](#exercise-06-explore-the-user-interface-of-visual-studio-code-for-abap-development)
 - [Summary & Next Exercise](#summary--next-exercise)
