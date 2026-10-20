@@ -115,8 +115,8 @@ For example, the following ADT MCP tools are available:
    <!--
    > If you want to use only destinations, packages, and namespaces that are configured in the predefined allow list, you can set the **Adt > Mcp Server: Allowlist Enabled**. For this tutorial, you do not need to select this option.  
    > ![Sample for selecting the relevant destination](images/ex01_adt_mcp_allowlist.png)
-
-
+   -->
+   
 </details>
 
 ---
