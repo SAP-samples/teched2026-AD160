@@ -23,7 +23,7 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 > **📌 Note**   
 > We’ve got sessions running in several locations. Please pick the one that’s right for you!
 
-> **📌 Replace the three digits to get your group number:**
+> **📌 Replace the three digits to get your group number `###`:**
 >  - `ZAD160_AI_DEMO_###` → 001 → 040 → SAP TechEd Berlin, October 27, 2026
 
 ---
@@ -38,8 +38,8 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
     <th>Value</th>
   </tr>
   <tr>
-    <td>SAP BAPI, ABAP environment</td>
-    <td>⚠ <b>will be provided by your instructors</b> ⚠</td>
+    <td>SAP BAIP, ABAP environment - <b>T02</b> -</td>
+    <td> ⚠ System URL will be provided by your instructors ⚠</td>
     <!-- https://url.sap/vq6gf5 -->
   </tr>
   <tr>
@@ -48,12 +48,12 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
   </tr>
   <tr>
     <td>Password</td>
-    <td>⚠ <b>will be provided by your instructors</b> ⚠</td>
+    <td>⚠ will be provided by your instructors ⚠</td>
   </tr>
   <tr>
     <td>Exercise Package</td>
     <td>ZAD160_AI_DEMO_### (where `###` is your assigned suffix)
-      <br><i>Don't forget to replace all occurences of the placeholder ### with your assigned location and group number in the exercise steps below.</i></td>
+      <br/><br><i>Don't forget to replace all occurences of the placeholder ### with your assigned location and group number in the exercise steps below.</i></td>
   </tr>
 </table>
 
