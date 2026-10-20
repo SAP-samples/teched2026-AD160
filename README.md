@@ -5,7 +5,7 @@
 # AD160 (aka RAP130) - Build apps and web APIs with ABAP Cloud using agentic AI
 ## Description
 
-This repository contains the material for the hands-on session **AD160 (aka RAP130) - Build SAP Fiori Elements Apps with ABAP Cloud and SAP Joule for Developers in ABAP Development Tools in Visual Studio Code**.
+This repository contains the material for the hands-on session **AD160 (aka RAP130) - Build apps and web APIs with ABAP Cloud using agentic AI**.
 
 You will build a transactional SAP Fiori elements app for travel management using the **ABAP RESTful Application Programming Model (RAP)** — entirely from **Visual Studio Code** that contains the installed [**ABAP Development Tools for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension, powered by the **ADT MCP Server** to generate and enhance your application.
 
