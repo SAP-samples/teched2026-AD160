@@ -23,12 +23,8 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 > **📌 Note**   
 > We’ve got sessions running in several locations. Please pick the one that’s right for you!
 
-> **📌 Replace the two digits to get your group number:**
->  - AD160_0** for SAP TechEd
-<!--
->  - AD160_1** for ASUG
->  - RAP130_0** for **DSAG-TechXchange 2026**
--->
+> **📌 Replace the three digits to get your group number:**
+>  - `ZAD160_AI_DEMO_###` → 001 → 040 → SAP TechEd Berlin, October 27, 2026
 
 ---
 
@@ -42,7 +38,7 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
     <th>Value</th>
   </tr>
   <tr>
-    <td>S/4HANA Public Cloud System - <b>AN4</b> -</td>
+    <td>SAP BAPI, ABAP environment</td>
     <td>⚠ <b>will be provided by your instructors</b> ⚠</td>
     <!-- https://url.sap/vq6gf5 -->
   </tr>
