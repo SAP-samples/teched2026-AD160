@@ -38,9 +38,9 @@ To complete the practical exercises, you need:
 -->
 
 >> #### ⚠ Exception regarding SAP-led events, such as "ABAP Developer Day", "SAP TechEd", "SAP CodeJam", and so on:
->> →- A dedicated ABAP system* for the hands-on session participants will be provided.  
->> →- At dedicated SAP events, SAP will provide laptops. In this case, all the relevant software is already installed. This also includes a license for **GitHub Copilot** extension as **coding agend** in Visual Studio Code.  
->> →- Access to the ABAP system* details for the session will be provided by the SAP instructors during the session.
+>> → A dedicated ABAP system* for the hands-on session participants will be provided.  
+>> → At dedicated SAP events, SAP will provide laptops. In this case, all the relevant software is already installed. This also includes a license for **GitHub Copilot** extension as **coding agend** in Visual Studio Code.  
+>> → Access to the ABAP system* details for the session will be provided by the SAP instructors during the session.
 
 
 ## Overview
