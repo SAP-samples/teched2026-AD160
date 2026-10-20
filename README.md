@@ -2,11 +2,11 @@
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-ad160)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-ad160)
 
-# AD160<!--RAP130--> - Build SAP Fiori Elements Apps with ABAP Cloud and SAP Joule for Developers, ABAP AI Capabilities in ABAP Development Tools for Visual Studio Code
+# AD160 (aka RAP130) - Build SAP Fiori Elements Apps with ABAP Cloud and SAP Joule for Developers, ABAP AI Capabilities in ABAP Development Tools for Visual Studio Code
 
 ## Description
 
-This repository contains the material for the hands-on session **AD160<!--RAP130--> - Build SAP Fiori Elements Apps with ABAP Cloud and SAP Joule for Developers in ABAP Development Tools in Visual Studio Code**.
+This repository contains the material for the hands-on session **AD160 (aka RAP130) - Build SAP Fiori Elements Apps with ABAP Cloud and SAP Joule for Developers in ABAP Development Tools in Visual Studio Code**.
 
 You will build a transactional SAP Fiori elements app for travel management using the **ABAP RESTful Application Programming Model (RAP)** — entirely from **Visual Studio Code** that contains the installed [**ABAP Development Tools for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension, powered by the **ADT MCP Server** to generate and enhance your application.
 
