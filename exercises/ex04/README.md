@@ -1,4 +1,4 @@
-[Home - AD160<!--RAP130--> - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
+[Home - AD160 (aka RAP130) - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
 
 # Exercise 4: Add a Validation
 

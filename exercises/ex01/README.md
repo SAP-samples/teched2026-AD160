@@ -1,6 +1,6 @@
-[Home - AD160<!--RAP130--> - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
+[Home - AD160 (aka RAP130) - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
 
-# Exercise 1: Enable and Verify the ADT MCP Server
+# Exercise 1: Get-to-Know and Verify the Enablement of the ADT MCP Server
 
 ## Introduction
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) is an open-source standard that allows AI models to securely communicate with external tools, applications, and data sources through a common protocol.
@@ -25,7 +25,7 @@ To use the ADT MCP tools in ADT for VS Code, the ADT MCP server needs to run. To
 
 ### Exercises
 
-- [1.1 - Enable the ADT MCP Server](#exercise-11-enable-the-adt-mcp-server)
+- [1.1 - Verify the Enablement of the ADT MCP Server](#exercise-11-verify-the-enablement-of-the-adt-mcp-server)
 - [1.2 - Verify the ADT MCP Server is Running](#exercise-12-verify-the-adt-mcp-server-is-running)
 - [1.3 - Verify the ADT MCP Tools in your coding agent](#exercise-13-verify-the-adt-mcp-tools-in-your-coding-agent)
 - [Summary & Next Exercise](#summary--next-exercise)
@@ -34,7 +34,7 @@ To use the ADT MCP tools in ADT for VS Code, the ADT MCP server needs to run. To
 
 ---
 
-## Exercise 1.1: Enable the ADT MCP Server
+## Exercise 1.1: Verify the Enablement of the ADT MCP Server
 
 The **ADT MCP Server** is a local HTTP server that is integrated in and runs inside the **ABAP Development Tools for Visual Studio Code** extension. It implements the Model Context Protocol (MCP) to call tools in a structured, authenticated way.
 
@@ -42,9 +42,12 @@ When enabled, the ADT MCP server exposes a set of ABAP development tools to any 
 
 The ADT MCP Server exposes ABAP development capabilities as MCP tools allowing you to create packages, to create transport requests, to generate complete RAP applications, activate objects, and more through natural language prompts. 
 
+> ℹ️ **Info**: For this tutorial, the ADT MCP server is already enabled.  
+
 <details>
   <summary>🔵 Click to expand</summary>
 
+<!--
 **Key tools available through the ADT MCP Server:**  
 For example, the following ADT MCP tools are available:
 
@@ -64,6 +67,7 @@ For example, the following ADT MCP tools are available:
 |abap_transport-create|Creates a transport request|
 |abap_transport-get|Validates and displays relevant transport requests for a given object|
 |
+-->
 
 > ⚠ **Warning regarding AI outputs** ⚠  
 > The ADT MCP Server is an **experimental feature** that may change at any time without notice. It is not intended for productive use. Please back up your data before using it.
@@ -75,17 +79,7 @@ For example, the following ADT MCP tools are available:
 >- [Agentic AI for ABAP Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/agentic-ai-development?locale=en-US)  
 
 
-</details>
-
----
-
-### Enable the ADT MCP Server in the Visual Studio Code Settings
-[^Top of page](#)
-
-> Enable the built-in ADT MCP Server in the Visual Studio Code extension settings.
-
-<details>
-
+> Verify the enablement the built-in ADT MCP Server in the Visual Studio Code extension settings.
 
 1. Open the settings of **Visual Studio Code** as follows:  
    a. Open the **Command Palette** with **'Ctrl+Shift+P'** (macOS: **'Cmd+Shift+P'**)  
@@ -121,7 +115,7 @@ For example, the following ADT MCP tools are available:
    <!--
    > If you want to use only destinations, packages, and namespaces that are configured in the predefined allow list, you can set the **Adt > Mcp Server: Allowlist Enabled**. For this tutorial, you do not need to select this option.  
    > ![Sample for selecting the relevant destination](images/ex01_adt_mcp_allowlist.png)
-   -->
+
 
 </details>
 

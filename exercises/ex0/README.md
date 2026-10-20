@@ -1,9 +1,9 @@
-[Home - AD160<!--RAP130--> - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
+[Home - AD160 (aka RAP130) - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
 
 # Getting Started
 
 ## Introduction
-Welcome to **AD160**! 
+Welcome to **AD160 (aka RAP 130)**! 
 
 Before building your app, you need to set up your development environment in Visual Studio Code to connect it to your ABAP system.
 
@@ -544,6 +544,6 @@ You have successfully:
 
 
 You can continue with the next exercise:   
-— **[Exercise 1: Enable and Verify the ADT MCP Server](../ex01/README.md)**
+— **[Exercise 1: Get-to-Know and Verify the Enablement of the ADT MCP Server](../ex01/README.md)**
 
 ---
