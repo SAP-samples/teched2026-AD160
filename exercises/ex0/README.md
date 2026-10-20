@@ -367,7 +367,9 @@ As the ABAP environment is shared by many participants, every artifact you creat
 
 > For this tutorial, the ABAP package 'ZAD160_AI_DEMO_###' has already been created for you.
 
-> ℹ️ **Note**: Replace **'###'** with your group ID.
+> ℹ️ **Note**:
+> - Replace **'###'** with your group ID.
+> - The screenshots are based on package 'ZRAP130_AI_###', but you will complete the tutorial in package 'ZAD160_AI_DEMO_###'.
 
 <details>
   <summary>🔵 Click to expand</summary>
