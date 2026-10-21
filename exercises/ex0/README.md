@@ -55,16 +55,16 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
   </tr>
   <tr>
     <td>User</td>
-    <td>ad160-###@education.cloud.sap (where '###' is your assigned suffix)</td>
+    <td>ad160-###@education.cloud.sap (where '###' is your assigned group ID)</td>
   </tr>
   <tr>
     <td>Password</td>
     <td>⚠ will be provided by your instructors ⚠</td>
   </tr>
   <tr>
-    <td>Exercise Package</td>
+    <td>Exercise ABAP Package</td>
     <td>ZAD160_AI_DEMO_### (where '###' is your assigned group ID)
-      <br/><br><i>Don't forget to replace all occurences of the placeholder '###' with your assigned location and group number in the exercise steps below.</i></td>
+      <br/><br><i>Don't forget to replace all occurences of the placeholder '###' with your assigned location and group ID in the exercise steps below.</i></td>
   </tr>
 </table>
 
@@ -112,7 +112,7 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 
  ![VS Code shortcut on your laptop](images/ex0_vs_code_open_desktop.png)
 
-  > ℹ️ **NOTE**: The [**ADT**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension is also already installed into your Visual Studio Code installation. This extension enables you for ABAP development and contains the built-in ADT MCP Server with the ADT MCP Tools.
+  > ℹ️ **NOTE**: The [**ADT for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension is also already installed into your Visual Studio Code installation. This extension enables you for ABAP development and contains the built-in ADT MCP Server with the ADT MCP Tools.
 
 </details>
 
@@ -215,15 +215,20 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 4. Enter the ABAP service instance URL as the **System URL** of your ABAP Cloud system.
 
-5. Press **Enter**, then type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
+    > ℹ️ **Note**: You find the short link of the system URL on your handout.  
+    a. Type the short link from the handout into the address bar of your browser and confirm with `Enter`.  
+    The relevant system URL will be resolved.  
+    b. Copy and paste the resolved URL for this step!
 
-6. Press **Enter**. 
+5. Press **`Enter`**, then type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
+
+6. Press **`Enter`**. 
 
     The connection is established and a dialog is opened. From here you can add the destination directly to your workspace.
 
    ![Dialog to add the destination to the workspace directly](images/ex0_vs_code_create_add_destination_dialog.png)
 
-7. Choose the **Add Destination to Workspace** button.  
+7. Choose the **`Add Destination to Workspace`** button.  
 The destination appears in the workspace.
 
 
@@ -256,20 +261,20 @@ The destination appears in the workspace.
 
 4. A list of systems that is added in your **SAP Logon** configuration is displayed. Select your target system.
 
-5. Enter your **user name** and press **Enter**.
+5. Enter your **`user name`** and press **`Enter`**.
 
-6. Enter the **client number** (e.g., `100`) and press **Enter**.
+6. Enter the **`client number`** (e.g., `100`) and press **Enter**.
 
-7. Enter your **logon language** (e.g., `EN`) and press **Enter**.
+7. Enter your **`logon language`** (e.g., `EN`) and press **Enter**.
 
 8. Confirm or edit the name of destination.
 
-9. Press **Enter**.
+9. Press **`Enter`**.
 The connection is established and a dialog is opened. From here you can add the destination directly to your workspace.
 
    ![Dialog to add the destination to the workspace directly](images/vs_code_create_add_destination_dialog.png)
 
-10. Choose the **Add Destination to Workspace** button.
+10. Choose the **`Add Destination to Workspace`** button.  
 The destination appears in the workspace.
 
    ```
@@ -331,8 +336,10 @@ The destination appears in the workspace.
 
    ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
 
-5. Enter your **User** and **Password** that will be provided by the instructor.
-  
+5. Enter your **`User`** and **`Password`** that will be provided by the instructor.
+
+6. Confirm with **`Continue`**. 
+
     Your log on will be confirmed and the system structure of your destination becomes available in the **Explorer**.  
    ![Display of the system structure](images/ex0_system_explorer.png)
 
@@ -537,7 +544,7 @@ You have the following possiblities:
 
 3. Use **`Ctrl+Shift+A`** to quickly open any object by name — you can use wildcards like `ZAD160_AI_DEMO_###`.
 
-4. Objects with unsaved backend changes are marked **(L)** — they must be **activated** (**`Ctrl+F3`**) to become active in the ABAP system.
+4. Objects with unsaved backend changes are marked **(L)** — they must be **activated** to become active in the ABAP system. To activate, choose **`F3`** for single activation or **`Ctrl+F3`** for mass activation.
 
 </details>
 
