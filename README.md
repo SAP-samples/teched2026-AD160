@@ -13,7 +13,7 @@ You will build a transactional SAP Fiori elements app for travel management usin
 <!-- - [Requirements](#requirements)-->
 - [Overview](#overview)
 - [Exercises](#exercises)
-<!-- - [Known Issues](#known-issues) -->
+- [Known Issues](#known-issues)
 - [How to obtain support](#how-to-obtain-support)
 - [Further Information](#further-information)
 - [Contributing](#contributing)
@@ -73,6 +73,8 @@ To complete the practical exercises, you need:
 
 Follow these steps to build a SAP Fiori App using the ADT MCP Server and a coding agent (GitHub Copilot or compatible) in Visual Studio Code.
 
+### Core Exercises
+
 | Exercises | -- |
 | ------------- | -- |
 | [Getting Started](exercises/ex0/README.md)| -- | 
@@ -82,16 +84,20 @@ Follow these steps to build a SAP Fiori App using the ADT MCP Server and a codin
 | [Exercise 4: Add a Validation](exercises/ex04/README.md)| -- |
 | [Exercise 5: Generate ABAP Unit Tests](exercises/ex05/README.md)| -- |
 
-#### Optional Exercises
+### Optional Exercises
 
 | Exercises | -- |
 | ------------- | -- | 
 | [Exercise 6: Debug ABAP Code in Visual Studio Code](exercises/ex06/README.md)| -- |
 | [Exercise 7: Add a Field to the Existing RAP UI Service](exercises/ex07/README.md) | -- | 
 
-<!--
+
 ## Known Issues
--->
+
+You need to interact with the coding agent and allow access to the ABAP system manually. 
+
+In case of any implementation issues resulting from the coding agent, you need to ask the coding agent for correction.
+
 
 ## How to obtain support
 
