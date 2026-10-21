@@ -94,9 +94,9 @@ Follow these steps to build a SAP Fiori App using the ADT MCP Server and a codin
 
 ## Known Issues
 
-You need to interact with the coding agent and allow access to the ABAP system manually. 
+You need to interact with the coding agent. So, in case of any implementation issues resulting from the coding agent, you need to ask the coding agent for correction.
 
-In case of any implementation issues resulting from the coding agent, you need to ask the coding agent for correction.
+When the coding agent interacts with the ABAP system, you need to allow access to the ABAP system manually. 
 
 
 ## How to obtain support
