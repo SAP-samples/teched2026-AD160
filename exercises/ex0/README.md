@@ -22,7 +22,7 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 - [Important Information](#important-information)
 - [System and Logon Information](#system-and-logon-information)
 - [Exercises](#exercises)
-- [Summary & Next Exercise](#summary-&-next-exercise)
+- [Summary & Next Exercise](#summary-next-exercise)
 
 ---
 
