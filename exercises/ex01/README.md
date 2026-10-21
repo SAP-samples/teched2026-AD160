@@ -80,7 +80,8 @@ For example, the following ADT MCP tools are available:
 > Verify the enablement the built-in ADT MCP Server in the Visual Studio Code extension settings.
 
 1. Open the settings of **Visual Studio Code** as follows:  
-   a. Open the **Command Palette** with **´Ctrl+Shift+P´** (macOS: **´Cmd+Shift+P´**)  
+
+   a. Open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**)  
    b. Type **Preferences: Open Settings (UI)** and select the finding.
 
 2. In the search bar, type:
@@ -140,7 +141,7 @@ After enabling the setting and having a destination in the workspace, the server
 
 **Method 2: Check via MCP Server list**
 
-1. Open the **Command Palette** (**´Ctrl+Shift+P´**).
+1. Open the **Command Palette** (**`Ctrl+Shift+P`**).
 
 2. Type ...  
    ```
