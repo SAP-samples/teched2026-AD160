@@ -216,9 +216,10 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 4. Enter the ABAP service instance URL as the **System URL** of your ABAP Cloud system.
 
     > ℹ️ **Note**: You find the short link of the system URL on your handout.  
-    a. Type the short link from the handout into the address bar of your browser and confirm with `Enter`.  
+    a. Type the short link from the handout into the address bar of your browser.  
+    b. Confirm with `Enter`.  
     The relevant system URL will be resolved.  
-    b. Copy and paste the resolved URL for this step!
+    c. Copy and paste the resolved URL for this step!
 
 5. Press **`Enter`**, then type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
 
