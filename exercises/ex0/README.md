@@ -562,7 +562,7 @@ You have successfully:
 - Installed the ABAP Development Tools extension for Visual Studio Code (which includes the ADT MCP Server)
 - Defined your group ID (`###`) for artifact naming
 -->
-- Created an HTTP destination and connected Visual Studio Code to your ABAP Cloud system
+- Created a destination and connected Visual Studio Code to your ABAP system (SAP BAIP, ABAP environment)
 - Added the destination to your workspace and authenticated
 - Explored the key Visual Studio Code areas for ABAP development
 

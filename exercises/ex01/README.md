@@ -5,9 +5,9 @@
 ## Introduction
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) is an open-source standard that allows AI models to securely communicate with external tools, applications, and data sources through a common protocol.
 
-The **ABAP Development Tools for VS Code** (ADT) extension contains the ADT MCP server that provides the  ADT MCP tools. Theses tools connect your ABAP system on base of the ADT language server to execute the relevant functionalities in the backend. 
+The **ABAP Development Tools for VS Code** (ADT) extension contains the ADT MCP server that provides the ADT MCP tools. Theses tools connect your ABAP system on base of the ADT language server to execute the relevant functionalities in the backend.  
 
-In this exercise, you will use your coding agent in **Agent** mode together with the ADT MCP tools to generate a RAP UI service using the ABAP Cloud Generator and to create a complete transactional app (Travel + Booking RAP business object)—all driven by natural language prompts using the coding agent provided in the **Chat** view.
+> ℹ️ **Info**: In this handson session, you will use your coding agent in **Agent** mode together with the ADT MCP tools to generate a RAP UI service using the ABAP Cloud Generator and to create a complete transactional app (Travel + Booking RAP business object)—all driven by natural language prompts using the coding agent provided in the **Chat** view.
 
 ---
 
@@ -36,11 +36,11 @@ To use the ADT MCP tools in ADT for VS Code, the ADT MCP server needs to run. To
 
 The **ADT MCP Server** is a local HTTP server that is integrated in and runs inside the ADT extension. It implements the Model Context Protocol (MCP) to call tools in a structured, authenticated way and exposes ABAP development capabilities as MCP tools. 
 
-The ADT MCP server exposes a set of ABAP development tools to any MCP-compatible AI assistant. So, it allows you to create packages, to create transport requests, to generate complete RAP applications, activate objects, and more through natural language prompts.  
+This means, the ADT MCP server exposes a set of ABAP development tools to any MCP-compatible AI assistant. This allows you to create packages, to create transport requests, to generate complete RAP applications, activate objects, and more through natural language prompts.  
 
 > ℹ️ **Info**: 
->- For this SAP-driven event, the ADT MCP server is already enabled on your laptop.  
->- In this workshop, the exercises use **GitHub Copilot** (see [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/get-started/quickstart)) as the coding agent. Any coding agent that supports Visual Studio Code's virtual workspace filesystem is compatible—GitHub Copilot is confirmed; others are also supported.
+>- For this SAP-driven event, the ADT MCP server is already enabled in your ADT for VS Code installation on your laptop.  
+>- In this workshop, the exercises use **GitHub Copilot** (see [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/get-started/quickstart)) as the coding agent. Any coding agent that supports Visual Studio Code's virtual workspace filesystem is compatible. GitHub Copilot is confirmed. Others are also supported.
 
 <details>
   <summary>🔵 Click to expand</summary>
@@ -80,7 +80,7 @@ For example, the following ADT MCP tools are available:
 > Verify the enablement the built-in ADT MCP Server in the Visual Studio Code extension settings.
 
 1. Open the settings of **Visual Studio Code** as follows:  
-   a. Open the **Command Palette** with **'Ctrl+Shift+P'** (macOS: **'Cmd+Shift+P'**)  
+   a. Open the **Command Palette** with **´Ctrl+Shift+P´** (macOS: **´Cmd+Shift+P´**)  
    b. Type **Preferences: Open Settings (UI)** and select the finding.
 
 2. In the search bar, type:
@@ -140,14 +140,14 @@ After enabling the setting and having a destination in the workspace, the server
 
 **Method 2: Check via MCP Server list**
 
-1. Open the **Command Palette** (**'Ctrl+Shift+P'**).
+1. Open the **Command Palette** (**´Ctrl+Shift+P´**).
 
 2. Type ...  
    ```
    >MCP:List Servers
    ```
 
-3. Select **'MCP: List Servers'** from the list.  
+3. Select **`MCP: List Servers`** from the list.  
 
     You should then see an entry for **ADT MCP Server** in the quick pick list.
    
@@ -198,8 +198,8 @@ If the ADT MCP Server does not appear or fails to start:
 
     > ℹ️ **Note**: You have the following possiblities to do this:  
     >- Click the **Copilot** icon in the **Activity Bar** (left),
-    >- choose *View* > *Chat* from the menu, or
-    >- press **'Ctrl+Shift+I'** (macOS: **'Cmd+Shift+I'**)
+    >- choose *`View`* > *`Chat`* from the menu, or
+    >- press **`Ctrl+Shift+I`** (macOS: **`Cmd+Shift+I`**)
 
 2. Click the **Configure Tools** (tools wrench icon) button in the Copilot chat input bar.  
    A quick pick list appears showing available tool providers. 
