@@ -17,6 +17,15 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 
 ---
 
+**Table of Content**
+- [Introduction](#introduction)
+- [Important Information](#important-information)
+- [System and Logon Information](#system-and-logon-information)
+- [Exercises](#exercises)
+- [Summary & Next Exercise](#summary-&-next-exercise)
+
+---
+
 
 ## 🔴 Important Information
 
@@ -26,12 +35,11 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 > **📌 Replace the three digits to get your group number `###`:**
 >  - `ZAD160_AI_DEMO_###` → 001-041 → SAP TechEd Berlin, October 27-29, 2026
 <!--
->  - `ZAD160_AI_DEMO_###` → 001 → 041 → SAP ASUG Tech Connect, Fort Worth, November 2-4, 2026
+>  - `ZAD160_AI_DEMO_###` → 042-080 → SAP TechEd Berlin, October 27-29, 2026
+>  - `ZAD160_AI_DEMO_###` → 001-041 → SAP ASUG Tech Connect, Fort Worth, November 2-4, 2026
 -->
 
 ---
-
-<br>
 
 ## 🔐 System and Logon Information
 
@@ -61,7 +69,7 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 </table>
 
 <!--
-### Prerequisites
+## Prerequisites
 
 Ensure that you have installed a coding agent, e.g. [GitHub Copilot](https://github.com/features/copilot) and have a **valid license**. See [here](https://sap.sharepoint.com/teams/AIPairProgrammingwithGitHubCopilot/SitePages/Setting-up-Copilot.aspx).
 
