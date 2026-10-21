@@ -217,7 +217,8 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
     > ℹ️ **Note**: You find the short link of the system URL on your handout.  
     a. Open a browser.  
-    b. Type the short link to the **System:** URL into the address bar. You find the short link to the URL in your handout.  
+    b. Type the short link to the **System:** URL into the address bar.  
+    You find the short link to the URL in your handout.  
     c. Confirm with `Enter`.  
     The relevant system URL will be resolved.  
     d. Copy and paste the resolved URL for this step!
