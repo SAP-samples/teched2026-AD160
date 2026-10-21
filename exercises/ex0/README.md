@@ -479,19 +479,20 @@ Open ADT for VS Code and get familiar with the [ADT extension](https://help.sap.
 
 <details>
  <summary>🔵 Click to expand!</summary>
-1. Open the **Command Palette** (**`Ctrl+Shift+P`**) and type `ABAP`.  
 
-You should see ABAP-specific commands such as:
-  - `ABAP: New Destination...`  
-  - `ABAP: Add Destination as Folder to Workspace` 
-  - `ABAP: Open Object...` 
-  - `ABAP: Create New ABAP Object...` 
-  - `ABAP: Activate`  
-  - ...
+1. Open the **Command Palette** (**`Ctrl+Shift+P`**) and type 'ABAP'.  
+
+    You should see ABAP-specific commands such as:
+    - `ABAP: New Destination...`  
+    - `ABAP: Add Destination as Folder to Workspace` 
+    - `ABAP: Open Object...` 
+    - `ABAP: Create New ABAP Object...` 
+    - `ABAP: Activate` 
+    - ...
 
 
-  >✅ If you see these commands, the extension is installed correctly.  
-  >![ADT Extension installed — ABAP commands visible in Command Palette](images/ex0_abap_command_palette.png)  
+    >✅ If you see these commands, the extension is installed correctly.  
+    >![ADT Extension installed — ABAP commands visible in Command Palette](images/ex0_abap_command_palette.png)  
 
 </details>
 
@@ -513,7 +514,7 @@ You should see ABAP-specific commands such as:
 | **Command Palette** | At the top | To trigger features and functions |
 | **Explorer (Workspace)** | Left sidebar | To navigate your ABAP system hierarchy — packages, object types, objects |
 | **Editor** | Center | To edit ABAP source code (classes, CDS views, behavior definitions, etc.) |
-| **Coding agent chat** (e.g. GitHub Copilot) | Right sidebar or panel | AI-powered chat — you will run MCP tool prompts here |
+| **Coding agent chat** (e.g. GitHub Copilot) | Right sidebar or panel | AI-powered **Chat** view. You will run MCP tool prompts here. |
 | **Outline** | Left sidebar | For navigation within the structure of ABAP classes and interfaces |
 | **Problems** panel | Bottom | Syntax errors and warnings |
 | **Terminal** panel | Bottom | Integrated shell |
