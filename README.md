@@ -2,14 +2,14 @@
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-ad160)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-ad160)
 
-# AD160 (aka RAP130) - Build apps and web APIs with ABAP Cloud using agentic AI
+# AD160 - Build apps and web APIs with ABAP Cloud using agentic AI
 ## Description
 
 This repository contains the material for the hands-on session **AD160 (aka RAP130) - Build apps and web APIs with ABAP Cloud using agentic AI**.
 
 You will build a transactional SAP Fiori elements app for travel management using the **ABAP RESTful Application Programming Model (RAP)** — entirely from **Visual Studio Code** that contains the installed [**ABAP Development Tools for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension, powered by the **ADT MCP Server** to generate and enhance your application.
 
-**Table of Content**
+**Table of Contents**
 <!-- - [Requirements](#requirements)-->
 - [Overview](#overview)
 - [Exercises](#exercises)

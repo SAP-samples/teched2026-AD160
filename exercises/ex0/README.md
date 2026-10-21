@@ -1,4 +1,4 @@
-[Home - AD160 (aka RAP130) - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
+[Home - AD160 - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
 
 # Getting Started
 
@@ -17,7 +17,7 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 
 ---
 
-**Table of Content**
+**Table of Contents**
 - [Introduction](#introduction)
 - [Important Information](#important-information)
 - [System and Logon Information](#system-and-logon-information)
