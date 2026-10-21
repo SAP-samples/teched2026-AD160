@@ -53,14 +53,17 @@ To complete the practical exercises, you need:
   This hands-on session covers the full developer journey from the setup of a Visual Studio Code environment to a fully functional, AI-enhanced transactional app.
  > You need to ...
   <!-- - Set up Visual Studio Code with the ADT for Visual Studio Code extension and connect it to your ABAP system*.-->
-  - Configure the built-in **ADT MCP Server** in the settings and connect it to **your coding agent**. 
-  - Use ADT MCP tools to **generate a complete RAP UI service** (Travel + Booking) and its OData UI service — all through natural language prompts.
+  - Connect ADT for VS Code extension to the ABAP system.
+  - Verify the built-in **ADT MCP Server** enablement in the settings and its connection to the **coding agent**. 
+  - Use ADT MCP tools to **generate a complete RAP UI service** (Travel + Booking) and its **OData UI service**—all through natural language prompts.
   - Explore and adjust the generated artifacts (CDS views, behavior definitions, metadata extensions) directly in Visual Studio Code.
-  - Publish the service binding and preview the app in the default browser
-  - Adding backend validations.
-  - Running ABAP Unit tests from Visual Studio Code.
-  - Debugging the app from Visual Studio Code.
-  - Add a new field to an existing RAP UI service using a coding agent, e.g. GitHub Copilot.
+  - Publish the service binding and preview the app in the default browser.
+  - Add backend validations.  
+
+  and optionally, to ...
+  - Run ABAP Unit tests from Visual Studio Code.
+  - Debugg the app from Visual Studio Code.
+  - Adding the implementation of a new field to an existing RAP UI service using the **coding agent**.
 
 
 </details>
