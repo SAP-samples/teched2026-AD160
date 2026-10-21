@@ -10,12 +10,14 @@ This repository contains the material for the hands-on session **AD160 (aka RAP1
 You will build a transactional SAP Fiori elements app for travel management using the **ABAP RESTful Application Programming Model (RAP)** — entirely from **Visual Studio Code** that contains the installed [**ABAP Development Tools for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension, powered by the **ADT MCP Server** to generate and enhance your application.
 
 **Table of Content**
-- [Requirements](#requirements)
+<!-- - [Requirements](#requirements)-->
 - [Overview](#overview)
 - [Exercises](#exercises)
-- [Known Issues](#known-issues)
+<!-- - [Known Issues](#known-issues) -->
 - [How to obtain support](#how-to-obtain-support)
 - [Further Information](#further-information)
+- [Contributing](#contributing)
+- [License](#license)
 
 <!--
 ## Requirements
@@ -53,18 +55,17 @@ To complete the practical exercises, you need:
   This hands-on session covers the full developer journey from the setup of a Visual Studio Code environment to a fully functional, AI-enhanced transactional app.
  > You need to ...
   <!-- - Set up Visual Studio Code with the ADT for Visual Studio Code extension and connect it to your ABAP system*.-->
-  - Connect ADT for VS Code extension to the ABAP system.
+  - Connect the **ADT for VS Code extension** to the ABAP system by creating a destination.
   - Verify the built-in **ADT MCP Server** enablement in the settings and its connection to the **coding agent**. 
   - Use ADT MCP tools to **generate a complete RAP UI service** (Travel + Booking) and its **OData UI service**—all through natural language prompts.
   - Explore and adjust the generated artifacts (CDS views, behavior definitions, metadata extensions) directly in Visual Studio Code.
   - Publish the service binding and preview the app in the default browser.
-  - Add backend validations.  
+  - Add backend validations.
+  - Run ABAP Unit tests from Visual Studio Code.  
 
   and optionally, to ...
-  - Run ABAP Unit tests from Visual Studio Code.
   - Debugg the app from Visual Studio Code.
   - Adding the implementation of a new field to an existing RAP UI service using the **coding agent**.
-
 
 </details>
 
