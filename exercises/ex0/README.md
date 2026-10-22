@@ -50,7 +50,7 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
   </tr>
   <tr>
     <td>SAP Business AI Platform, ABAP environment</td>
-    <td>⚠ The SAP system URL will be provided by your instructors! ⚠</td>
+    <td>⚠ The SAP system URL will be provided in the hand-outs! ⚠</td>
   </tr>
   <tr>
     <td>User</td>
@@ -113,16 +113,10 @@ In this exercise, you will enter the short link, which is provided in the hand-o
     > ℹ️ **Note**: You find the short link of the system URL in your hand-outs on your desk.  
 
 3. Confirm with `Enter`. 
-
-<!--
-    d. If the **Welcome to ABAP_TARGET2!** page is opened, choose the link to **'tdct3ched2.accounts.ondemand.com'**.
-
-      ![System overview](images/ex0_target2_page.png)
--->
-
+    
     The **Sign In** page is opened.
 
-4. Enter your **`User`** and **`Password`** that is provided by the instructor in the hand-outs on your desk.
+4. Enter your **`User`** and **`Password`** that is provided in the hand-outs on your desk.
 
       > ℹ️ **Note**: Display and check the copied input that **no** blanks were added.
     
@@ -259,11 +253,9 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 8. Choose the **`Add Destination to Workspace`** button.  
 
-The destination appears in the workspace in the **Explorer**.
+The destination appears in the workspace in the **Explorer** on the left.
 
 ![Display of the added destination](images/ex0_system_explorer_not_logged-on.png)
-
-> ℹ️ **Important Note**: Do not close the browser and keep your session open!
 
 > ⚠️ Here is a summery of the relevant steps and data to be used: 
 
@@ -351,7 +343,7 @@ The destination appears in the workspace.
 ![Sample for selecting the relevant destination](images/ex0_destination_add_workspace.png)
 -->
 
-The destination appears in the workspace in the **Explorer**.
+The destination appears in the workspace in the **Explorer** on the left.
 
 ---
 
@@ -391,7 +383,10 @@ The destination appears in the workspace in the **Explorer**.
  ## Exercise 0.3: Check your Group ID
 [^Top of page](#)
 
-> ℹ️ **NOTE**: For the SAP events, the group ID will be provided by the instructor. The given group ID is part of the user name that you use for system logon, it is part of the name of the provided ABAP package, and it is used as suffix for the development objects to be created!
+> ℹ️ **NOTE**: For the SAP events, the group ID will be provided in the hand-outs. The given group ID ...
+> - is part of the user name that you use for system logon,
+> - is part of the name of the provided ABAP package, and 
+> - used as suffix for the development objects to be created!
 
 <!--
 <details>
