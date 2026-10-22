@@ -222,24 +222,24 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
     > ℹ️ **Note**: You find the short link of the system URL in your handout on your desk.  
 
     c. Confirm with `Enter`.  
-
+<!--
     d. If the **Welcome to ABAP_TARGET2!** page is opened, choose the link to **'tdct3ched2.accounts.ondemand.com'**.
 
       ![System overview](images/ex0_target2_page.png)
-
+-->
       The **Sign In** page is opened.
 
-    e. Enter your **`User`** and **`Password`** that is provided by the instructor in the handout on your desk.
+    d. Enter your **`User`** and **`Password`** that is provided by the instructor in the handout on your desk.
 
       > ℹ️ **Note**: Display and check the copied input that **no** blanks were added.
     
       ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
 
-    f. Confirm with **`Continue`**.  
+    e. Confirm with **`Continue`**.  
 
     The **SAP BAIP Cockpit** of the ABAP environment is opened.  
 
-    g. Copy the **System URL** from the address bar to the clipboard.
+    f. Copy the **System URL** from the address bar to the clipboard.
 
     > ℹ️ **Note**: Only copy the URL **without** the `/ui#Shell-home` part at the end!
 
