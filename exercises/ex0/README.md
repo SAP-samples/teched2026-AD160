@@ -223,19 +223,17 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
     c. Confirm with `Enter`.  
 
-      The **Welcome to ABAP_TARGET2!** page is opened.  
+    d. If the **Welcome to ABAP_TARGET2!** page is opened, choose the link to **'tdct3ched2.accounts.ondemand.com'**.  
 
-      ![System overview](images/ex0_target2_page.png)  
-
-    d. If requested, choose the link to **'tdct3ched2.accounts.ondemand.com'**.  
+      ![System overview](images/ex0_target2_page.png)
 
       The **Sign In** page is opened.
 
-   ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
-
     e. Enter your **`User`** and **`Password`** that is provided by the instructor in the handout on your desk.
 
-    > ℹ️ **Note**: Display and check the copied input that **no** blanks were added.
+      > ℹ️ **Note**: Display and check the copied input that **no** blanks were added.
+    
+      ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
 
     f. Confirm with **`Continue`**.  
 
@@ -370,11 +368,13 @@ The destination appears in the workspace in the **Explorer**.
 
     The URL is stored in your clipboard.
 
-4. Switch back to the browser that is opened in **incognito/inPrivate** mode.
+4. Switch back to the browser that is opened.
 
 5. Open a new tab and paste the URL into the address bar. 
 
-6. Confirm with `Enter`.
+6. If requested, log on to the ABAP Cloud system. See [0.2 - Connect Visual Studio Code to Your ABAP Cloud System](#exercise-02-connect-visual-studio-code-to-your-abap-system)
+
+7. Confirm with `Enter`.
 
     The loggon will be confirmed and your user will be logged on the ABAP Cloud system.
 
@@ -582,7 +582,7 @@ Open ADT for VS Code and get familiar with the [ADT extension](https://help.sap.
 
 You have the following possiblities:
 
-1. In the **Explorer** view, expand the folder for your system connection.
+1. In the **Explorer**, expand the system folder of your destination.
 
 2. Navigate through the package hierarchy to find ABAP development objects.
 
