@@ -362,7 +362,7 @@ The destination appears in the workspace in the **Explorer**.
 
 2. Choose **Log On to Destination...** from the context menu.  
 
-    The **Log On to ...** dialog is opened from the list.
+    The **Log On to ...** dialog is opened.
 
 3. Choose **Copy to Clipboard**.
 
@@ -376,7 +376,7 @@ The destination appears in the workspace in the **Explorer**.
 
 6. Confirm with `Enter`.
 
-    The loggon will be confirmed and your user will be logged on to the ABAP system.
+    The loggon will be confirmed and your user will be logged on the ABAP Cloud system.
 
     ![Success message in your browser](images/ex0_log-on_adt_page.png)
 
