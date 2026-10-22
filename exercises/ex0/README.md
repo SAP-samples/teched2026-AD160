@@ -223,7 +223,7 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
     c. Confirm with `Enter`.  
 
-    d. If the **Welcome to ABAP_TARGET2!** page is opened, choose the link to **'tdct3ched2.accounts.ondemand.com'**.  
+    d. If the **Welcome to ABAP_TARGET2!** page is opened, choose the link to **'tdct3ched2.accounts.ondemand.com'**. Otherwise, you can continue with step g.  
 
       ![System overview](images/ex0_target2_page.png)
 
