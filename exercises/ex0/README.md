@@ -130,7 +130,7 @@ In this exercise you will enter the short link that is provided in the hand-outs
 
 5. Confirm with **`Continue`**.  
 
-    The **SAP BAIP Cockpit** of the ABAP environment is opened.  
+    The **Fiori Launchpad** of the ABAP environment is opened.  
 
     f. Copy the **System URL** from the address bar to the clipboard.
 
