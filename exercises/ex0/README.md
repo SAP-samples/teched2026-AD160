@@ -100,22 +100,45 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 
 ---
 
-## Exercise 0.1: Open Visual Studio Code
+## Exercise 0.1: Open the System URL of the Business AI Platform, ABAP Environment. 
 [^Top of page](#)
 
-> Open Visual Studio Code that is already installed on your laptop. 
+In this exercise you will enter the short link that is provided in the hand-outs in a browser. As a result the URL will be resolved and you will be challenged to authenticate against the SAP Teched Identity Provider using the credentials that you will find on the hand-outs as well.
 
 <details>
   <summary>🔵 Click to expand!</summary>
 
-   1. Doulble-click the VS Code shortcut on your desktop.
+1. Start your browser from the icon on the desktop.
 
- ![VS Code shortcut on your laptop](images/ex0_vs_code_open_desktop.png)
+2. Type the short link from the handout into the address bar of your browser.
 
-  > ℹ️ **NOTE**: The [**ADT for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension is also already installed into your Visual Studio Code installation. This extension enables you for ABAP development and contains the built-in ADT MCP Server with the ADT MCP Tools.
+    > ℹ️ **Note**: You find the short link of the system URL in your handout on your desk.  
+
+3. Confirm with `Enter`.  
+<!--
+    d. If the **Welcome to ABAP_TARGET2!** page is opened, choose the link to **'tdct3ched2.accounts.ondemand.com'**.
+
+      ![System overview](images/ex0_target2_page.png)
+-->
+      The **Sign In** page is opened.
+
+4. Enter your **`User`** and **`Password`** that is provided by the instructor in the handout on your desk.
+
+      > ℹ️ **Note**: Display and check the copied input that **no** blanks were added.
+    
+      ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
+
+5. Confirm with **`Continue`**.  
+
+    The **SAP BAIP Cockpit** of the ABAP environment is opened.  
+
+    f. Copy the **System URL** from the address bar to the clipboard.
+
+    > ℹ️ **Note**: Only copy the URL **without** the `/ui#Shell-home` part at the end!
+
+    ![Displayed system URL](images/ex0_system_url_browser.png)
 
 </details>
-
 <!-- 
 ## Exercise 0.1: Install Visual Studio Code
 [^Top of page](#)
@@ -192,8 +215,22 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 ---
 
-## Exercise 0.2: Connect Visual Studio Code to Your ABAP System
+## Exercise 0.2: Open Visual Studio Code and connect it to the ABAP System
 [^Top of page](#)
+
+> Open Visual Studio Code that is already installed on your laptop. 
+
+<details>
+  <summary>🔵 Click to expand!</summary>
+
+   1. Double-click the VS Code shortcut on your desktop.
+
+ ![VS Code shortcut on your laptop](images/ex0_vs_code_open_desktop.png)
+
+  > ℹ️ **NOTE**: The [**ADT for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension is also already installed into your Visual Studio Code installation. This extension enables you for ABAP development and contains the built-in ADT MCP Server with the ADT MCP Tools.
+
+
+
 
 > Create a **destination** to establish a system connection to your ABAP system and add it to your workspace.  
 > Choose the connection type that matches your system:
@@ -202,54 +239,17 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 > - **RFC** — SAP S/4HANA or SAP S/4HANA Cloud Private Edition (requires SAP Logon configured on your machine)
 -->
 
-<details>
-  <summary>🔵 Click to expand!</summary>
-
-### Option A: Destination for Cloud systems
-
 1. Open the **Command Palette** using **`Ctrl+Shift+P`**.
 
 2. Type 'ABAP: New Destination' and select **`ABAP: New Destination...`**.
 
 3. Select **HTTP** as the connection type.
 
-4. Enter the **System URL** to the ABAP Cloud system. To get the **System URL**, proceed as follows:
+4. Enter the **System URL** to the ABAP Cloud system. You can paste it from the clipboard into the command dialog in VS Code.
 
-    a. Start your browser from the icon on the desktop.
+5. Press **`Enter`**. 
 
-    b. Type the short link from the handout into the address bar of your browser.
-
-    > ℹ️ **Note**: You find the short link of the system URL in your handout on your desk.  
-
-    c. Confirm with `Enter`.  
-<!--
-    d. If the **Welcome to ABAP_TARGET2!** page is opened, choose the link to **'tdct3ched2.accounts.ondemand.com'**.
-
-      ![System overview](images/ex0_target2_page.png)
--->
-      The **Sign In** page is opened.
-
-    d. Enter your **`User`** and **`Password`** that is provided by the instructor in the handout on your desk.
-
-      > ℹ️ **Note**: Display and check the copied input that **no** blanks were added.
-    
-      ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
-
-    e. Confirm with **`Continue`**.  
-
-    The **SAP BAIP Cockpit** of the ABAP environment is opened.  
-
-    f. Copy the **System URL** from the address bar to the clipboard.
-
-    > ℹ️ **Note**: Only copy the URL **without** the `/ui#Shell-home` part at the end!
-
-    ![Displayed system URL](images/ex0_system_url_browser.png)
-    
-5. Paste the **System URL** from the clipboard into the command dialog in VS Code.
-
-6. Press **`Enter`**. 
-
-7. Type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
+6. Type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
 
 7. Press **`Enter`**. 
 
@@ -332,11 +332,12 @@ The destination appears in the workspace.
 
 ---
 
-### Add the destination to your workspace (_Optional_)
+##  Exercise 0.3 Add the destination to your workspace (_Optional_)
 
 > ⚠️ **Important**:  
+>In the last exercise you were asked to click the **`Add Destination to Workspace`** button. This exercise is only relevant, if you have **NOT** added the destination to your workspace yet. 
 > - If you have already added the destination to your workspace, you can skip the following step.  
-> - If you miss the destination in your workspace in the **Explorer**, you need to proceed as follows:
+> - If you have missed to add the destination in your workspace in the **Explorer**, you need to proceed as follows:
 
 1. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).
 
@@ -354,33 +355,28 @@ The destination appears in the workspace in the **Explorer**.
 
 ### Log on your user to and connect your destination with the ABAP Cloud system 
 
-> Next, you need to log on your user to the ABAP system. Proceed as follows:
+> Next, you need to log on with your user to the ABAP system. Proceed as follows:
 
 1. Select your destination in the **Explorer**.
+
+   ![Logon to dest from project](images/ex0-logon-to-destination-from-project.png)
+
 
 2. Choose **Log On to Destination...** from the context menu.  
 
     The **Log On to ...** dialog is opened.
 
-3. Choose **Copy to Clipboard**.
+3. Choose **Open with Default Browser**.
 
-    ![Selecting the Copy to Clipboard option](images/ex0_logon_destination_clipboard.png)
+    ![Selecting the Open with default browser option](images/ex0-authenticate-destination.png)
 
-    The URL is stored in your clipboard.
-
-4. Switch back to the browser that is opened.
-
-5. Open a new tab and paste the URL into the address bar. 
-
-6. If requested, log on to the ABAP Cloud system. See [0.2 - Connect Visual Studio Code to Your ABAP Cloud System](#exercise-02-connect-visual-studio-code-to-your-abap-system)
-
-7. Confirm with `Enter`.
+4. Confirm with `Enter`.
 
     The loggon will be confirmed and your user will be logged on the ABAP Cloud system.
 
     ![Success message in your browser](images/ex0_log-on_adt_page.png)
 
- 7. Switch back to VS Code.
+ 5. Switch back to VS Code.
 
     The system structure of your destination becomes available in the **Explorer**.
 
@@ -390,10 +386,10 @@ The destination appears in the workspace in the **Explorer**.
 
 ---
 
- ## Exercise 0.3: Handle your Group ID
+ ## Exercise 0.3: Check your Group ID
 [^Top of page](#)
 
-> ℹ️ **NOTE**: For the SAP events, the group ID will be provided by the instructor. Use the given group ID for system logon, ABAP package name, and as suffix for the development objects to be created!
+> ℹ️ **NOTE**: For the SAP events, the group ID will be provided by the instructor. The given group ID is part of the user name that you use for system logon, it is part of the name of the provided ABAP package, and it is used as suffix for the development objects to be created!
 
 <!--
 <details>
