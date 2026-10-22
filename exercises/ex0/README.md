@@ -215,7 +215,7 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 4. Enter the **System URL** to the ABAP Cloud system. To get the **System URL**, proceed as follows:
 
-    a. Start your browser in **incognito/inPrivate** mode. For expample, choose right-click from the browser icon on the taskbar.  
+    a. Start your browser from the icon on the desktop.
 
     b. Type the short link from the handout into the address bar of your browser.
 
@@ -227,7 +227,7 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
       ![System overview](images/ex0_target2_page.png)  
 
-    d. Choose the link to **'tdct3ched2.accounts.ondemand.com'**.  
+    d. If requested, choose the link to **'tdct3ched2.accounts.ondemand.com'**.  
 
       The **Sign In** page is opened.
 
