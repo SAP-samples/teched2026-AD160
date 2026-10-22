@@ -80,10 +80,11 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 ### Exercises
 - [0.1 - Open the System URL of the SAP Business AI Platform, ABAP Environment](#exercise-01-open-the-system-url-of-the-business-ai-platform-abap-environment)
 - [0.2 - Open Visual Studio Code and connect it to the ABAP System](#exercise-02-open-visual-studio-code-and-connect-it-to-the-abap-system)
-- [0.3 - Check your Group ID](#exercise-03-check-your-group-id)
-- [0.4 - Open your ABAP Package](#exercise-04-open-your-abap-package)
-- [0.5 - Verify the Installation](#exercise-05-verify-the-installation)
-- [0.6 - Explore the User Interface of Visual Studio Code User for ABAP Development](#exercise-06-explore-the-user-interface-of-visual-studio-code-for-abap-development)
+- [0.3 - Add the destination to your workspace (Optional)](#exercise-03-add-the-destination-to-your-workspace-optional)
+- [0.4 - Check your Group ID](#exercise-04-check-your-group-id)
+- [0.5 - Open your ABAP Package](#exercise-05-open-your-abap-package)
+- [0.6 - Verify the Installation](#exercise-06-verify-the-installation)
+- [0.7 - Explore the User Interface of Visual Studio Code User for ABAP Development](#exercise-07-explore-the-user-interface-of-visual-studio-code-for-abap-development)
 
 <!--
 - [0.1 - Install Visual Studio Code](#exercise-01-install-visual-studio-code)
@@ -326,45 +327,33 @@ The destination appears in the workspace.
 
 ---
 
-### Add the destination to your workspace (_Optional_)
+## Exercise 0.3: Add the destination to your workspace (_Optional_)
 
 > ⚠️ **Important**:  
 >In the last exercise you were asked to click the **`Add Destination to Workspace`** button. This exercise is only relevant, if you have **NOT** added the destination to your workspace yet. 
 > - If you have already added the destination to your workspace, you can skip the following step.  
 > - If you have missed to add the destination in your workspace in the **Explorer**, you need to proceed as follows:
 
+<details>
+  <summary>🔵 Click to expand!</summary>
+
+
 1. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).
 
 2. Type 'ABAP: Add Destination as Folder' and select **`ABAP: Add Destination as Folder to the Workspace...`**.
+ 
+   The destination appears in the workspace in the **Explorer** on the left.
 
-3. Select the created destination.
-
-<!--
-![Sample for selecting the relevant destination](images/ex0_destination_add_workspace.png)
--->
-
-The destination appears in the workspace in the **Explorer** on the left.
-
----
-
-### Log on your user to and connect your destination with the ABAP system 
-
-> Next, you need to log on with your user to the ABAP system. Proceed as follows:
-
-1. Select your destination in the **Explorer**.
+3. Select the created destination `AD160` in the **Explorer** and choose **Log On to Destination...** from the context menu.   
+   
 
    ![Logon to dest from project](images/ex0-logon-to-destination-from-project.png)
 
-
-2. Choose **Log On to Destination...** from the context menu.  
-
-    The **Log On to ...** dialog is opened.
-
-3. Choose **Open with Default Browser**.
+4. The **Log On to ...** dialog is opened. Choose **Open with Default Browser**.
 
     ![Selecting the Open with default browser option](images/ex0-authenticate-destination.png)
 
-4. Confirm with `Enter`.
+5. Confirm with `Enter`.
 
     The loggon will be confirmed and your user will be logged on the ABAP system.
 
@@ -380,7 +369,7 @@ The destination appears in the workspace in the **Explorer** on the left.
 
 ---
 
- ## Exercise 0.3: Check your Group ID
+ ## Exercise 0.4: Check your Group ID
 [^Top of page](#)
 
 > ℹ️ **NOTE**: For the SAP events, the group ID will be provided in the hand-outs. The given group ID ...
@@ -418,7 +407,7 @@ As the ABAP environment is shared by many participants, every artifact you creat
 
 ---
 
-## Exercise 0.4: Open your ABAP Package 
+## Exercise 0.5: Open your ABAP Package 
 [^Top of page](#)
 
 > For this tutorial, the ABAP package `ZAD160_AI_DEMO_###` has already been created for you.
@@ -506,7 +495,7 @@ The package will be opened in the **Explorer**.
 
 ---
 
-## Exercise 0.5: Verify the Installation
+## Exercise 0.6: Verify the Installation
 
 Open ADT for VS Code and get familiar with the [ADT extension](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/abap-development-tools-for-visual-studio-code).
 
@@ -531,7 +520,7 @@ Open ADT for VS Code and get familiar with the [ADT extension](https://help.sap.
 
 ---
 
-## Exercise 0.6: Explore the User Interface of Visual Studio Code for ABAP Development
+## Exercise 0.7: Explore the User Interface of Visual Studio Code for ABAP Development
 [^Top of page](#)
 
 > Get familiar with the key Visual Studio Code areas and its [user interface](https://code.visualstudio.com/docs/editing/getting-started/userinterface) of VS Code.
