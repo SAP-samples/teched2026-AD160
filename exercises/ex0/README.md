@@ -215,13 +215,11 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 4. You now need to enter the ABAP service instance URL as the **System URL** of your ABAP Cloud system. To get the **System URL**, proceed as follows:
 
-    a. Start your browser in browser in **incognito/inPrivate** mode. For expample, choose right-click from the browser icon on the taskbar.
+    a. Start your browser in browser in **incognito/inPrivate** mode. For expample, choose right-click from the browser icon on the taskbar.  
 
-    The browser will be opend in **incognito/inPrivate** mode.
+    b. Type the short link from the handout into the address bar of your browser.
 
-    b. Type the short link from the handout into the address bar in your browser.
-
-    > ℹ️ **Note**: You find the short link of the system URL on your handout on your desk.  
+    > ℹ️ **Note**: You find the short link of the system URL in your handout on your desk.  
 
     c. Confirm with `Enter`.  
 
@@ -235,20 +233,21 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
    ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
 
-    e. Enter your **`User`** and **`Password`** that will is provided by the instructor in the handout on your desk.
+    e. Enter your **`User`** and **`Password`** that is provided by the instructor in the handout on your desk.
 
-    > ℹ️ **Note**: Display and check the input that **no** blanks were added.
+    > ℹ️ **Note**: Display and check the copied input that **no** blanks were added.
 
     f. Confirm with **`Continue`**.  
-    The landing page of your ABAP system is opened.
+
+    The **SAP BAIP Cockpit** of the ABAP environment is opened.  
 
     g. Copy the **System URL** from the address bar to the clipboard.
 
-    > ℹ️ **Note**: Only copy the URL **without** the `/ui#Shell-home` suffix!
+    > ℹ️ **Note**: Only copy the URL **without** the `/ui#Shell-home` part at the end!
 
     ![Displayed system URL](images/ex0_system_url_browser.png)
     
-5. You can now paste the **System URL** from the clipboard to creation dialog in VS Code.
+5. You can now paste the **System URL** from the clipboard into the command dialog in VS Code.
 
 6. Press **`Enter`**, then type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
 
@@ -260,10 +259,11 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 7. Choose the **`Add Destination to Workspace`** button.  
 
-The destination appears in the workspace.
+The destination appears in the workspace in the **Explorer**.
 
- Your log on will be confirmed and the system structure of your destination becomes available in the **Explorer**.  
-   ![Display of the system structure](images/ex0_system_explorer.png)
+![Display of the added destination](images/ex0_system_explorer_not_logged-on.png)
+
+> ℹ️ **Important Note**: Do not close the browser and keep your session open!
 
 > ⚠️ Here is a summery of the relevant steps and data to be used: 
 
@@ -332,11 +332,11 @@ The destination appears in the workspace.
 
 ---
 
-### Add the destination to your workspace
+### Add the destination to your workspace (_Optional_)
 
 > ⚠️ **Important**:  
-> - If you have already added the destination to your workspace, you can skip the following steps.  
-> - If you miss the destination in your workspace in the **Explorer**, you need to follow the following steps:
+> - If you have already added the destination to your workspace, you can skip the following step.  
+> - If you miss the destination in your workspace in the **Explorer**, you need to proceed as follows:
 
 1. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).
 
@@ -346,10 +346,12 @@ The destination appears in the workspace.
 
 ![Sample for selecting the relevant destination](images/ex0_destination_add_workspace.png)
 
+The destination appears in the workspace in the **Explorer**.
 
-### Log on to your destination with your user
 
-> Next, you need to log on to your ABAP system.
+### Log on the destination and your user to the ABAP system 
+
+> Next, you need to log on the destination and your user to the ABAP system. Proceed as follows:
 
 1. Select the destination in the **Explorer**.
 
