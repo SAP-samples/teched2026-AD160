@@ -213,9 +213,9 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 3. Select **HTTP** as the connection type.
 
-4. You now need to enter the ABAP service instance URL as the **System URL** of your ABAP Cloud system. To get the **System URL**, proceed as follows:
+4. Enter the **System URL** to the ABAP Cloud system. To get the **System URL**, proceed as follows:
 
-    a. Start your browser in browser in **incognito/inPrivate** mode. For expample, choose right-click from the browser icon on the taskbar.  
+    a. Start your browser in **incognito/inPrivate** mode. For expample, choose right-click from the browser icon on the taskbar.  
 
     b. Type the short link from the handout into the address bar of your browser.
 
@@ -247,17 +247,19 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
     ![Displayed system URL](images/ex0_system_url_browser.png)
     
-5. You can now paste the **System URL** from the clipboard into the command dialog in VS Code.
-
-6. Press **`Enter`**, then type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
+5. Paste the **System URL** from the clipboard into the command dialog in VS Code.
 
 6. Press **`Enter`**. 
+
+7. Type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
+
+7. Press **`Enter`**. 
 
     The connection is established and a dialog is opened. From here you can add the destination directly to your workspace.
 
    ![Dialog to add the destination to the workspace directly](images/ex0_vs_code_create_add_destination_dialog.png)
 
-7. Choose the **`Add Destination to Workspace`** button.  
+8. Choose the **`Add Destination to Workspace`** button.  
 
 The destination appears in the workspace in the **Explorer**.
 
@@ -348,35 +350,38 @@ The destination appears in the workspace.
 
 The destination appears in the workspace in the **Explorer**.
 
+---
 
-### Log on the destination and your user to the ABAP system 
+### Log on your user to and connect your destination with the ABAP system 
 
-> Next, you need to log on the destination and your user to the ABAP system. Proceed as follows:
+> Next, you need to log on your user to the ABAP system. Proceed as follows:
 
-1. Select the destination in the **Explorer**.
+1. Select your destination in the **Explorer**.
 
-2. Choose **Log On to Destination...** from the context menu.
+2. Choose **Log On to Destination...** from the context menu.  
 
-![Selecting the Copy to Clipboard option](images/ex0_logon_destination_clipboard.png)
+  The **Log On to ...** dialog is opened from the list.
 
-   The URL is stored in your clipboard.
+3. Choose **Copy to Clipboard**.
 
-3. Start your browser in **incognito/inPrivate** mode mode and paste the URL from the clipboard in the address bar.
+  ![Selecting the Copy to Clipboard option](images/ex0_logon_destination_clipboard.png)
 
-   The **Welcome to ABAP_TARGET2!** page is opened.  
-   ![System overview](images/ex0_target2_page.png)
+  The URL is stored in your clipboard.
 
-4. Choose the link to **'tdct3ched2.accounts.ondemand.com'**.  
-   The **Sign In** page is opened.
+4. Switch back to the browser that is opened in **incognito/inPrivate** mode.
 
-   ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
+5. Open a new tab and paste the URL into the address bar. 
 
-5. Enter your **`User`** and **`Password`** that will be provided by the instructor.
+6. Confirm with `Enter`.
 
-6. Confirm with **`Continue`**. 
+The loggon will be confirmed and your user will be logged on to the ABAP system.
 
-    Your log on will be confirmed and the system structure of your destination becomes available in the **Explorer**.  
-   ![Display of the system structure](images/ex0_system_explorer.png)
+  ![Success message in your browser](images/ex0_log-on_adt_page.png)
+
+ 7. Switch back to VS Code.
+
+  The system structure of your destination becomes available in the Explorer.
+ ![Display of the system structure](images/ex0_system_explorer.png) 
 
 </details>
 
