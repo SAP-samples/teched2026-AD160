@@ -213,17 +213,44 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 3. Select **HTTP** as the connection type.
 
-4. Enter the ABAP service instance URL as the **System URL** of your ABAP Cloud system.
+4. You now need to enter the ABAP service instance URL as the **System URL** of your ABAP Cloud system. To get the **System URL**, proceed as follows:
 
-    > ℹ️ **Note**: You find the short link of the system URL on your handout.  
-    a. Open a browser.  
-    b. Type the short link to the **System:** URL into the address bar.  
-    You find the short link to the URL in your handout.  
+    a. Start your browser in browser in **incognito/inPrivate** mode. For expample, choose right-click from the browser icon on the taskbar.
+
+    The browser will be opend in **incognito/inPrivate** mode.
+
+    b. Type the short link from the handout into the address bar in your browser.
+
+    > ℹ️ **Note**: You find the short link of the system URL on your handout on your desk.  
+
     c. Confirm with `Enter`.  
-    The relevant system URL will be resolved.  
-    d. Copy and paste the resolved URL for this step!
 
-5. Press **`Enter`**, then type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
+      The **Welcome to ABAP_TARGET2!** page is opened.  
+
+      ![System overview](images/ex0_target2_page.png)  
+
+    d. Choose the link to **'tdct3ched2.accounts.ondemand.com'**.  
+
+      The **Sign In** page is opened.
+
+   ![Dialog to enter the access credentials](images/ex0_login_user_pw.png)
+
+    e. Enter your **`User`** and **`Password`** that will is provided by the instructor in the handout on your desk.
+
+    > ℹ️ **Note**: Display and check the input that **no** blanks were added.
+
+    f. Confirm with **`Continue`**.  
+    The landing page of your ABAP system is opened.
+
+    g. Copy the **System URL** from the address bar to the clipboard.
+
+    > ℹ️ **Note**: Only copy the URL **without** the `/ui#Shell-home` suffix!
+
+    ![Displayed system URL](images/ex0_system_url_browser.png)
+    
+5. You can now paste the **System URL** from the clipboard to creation dialog in VS Code.
+
+6. Press **`Enter`**, then type a short **ID** for this destination (e.g., `AD160`<!-- `RAP130`-->).
 
 6. Press **`Enter`**. 
 
@@ -232,8 +259,11 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
    ![Dialog to add the destination to the workspace directly](images/ex0_vs_code_create_add_destination_dialog.png)
 
 7. Choose the **`Add Destination to Workspace`** button.  
+
 The destination appears in the workspace.
 
+ Your log on will be confirmed and the system structure of your destination becomes available in the **Explorer**.  
+   ![Display of the system structure](images/ex0_system_explorer.png)
 
 > ⚠️ Here is a summery of the relevant steps and data to be used: 
 
@@ -329,7 +359,7 @@ The destination appears in the workspace.
 
    The URL is stored in your clipboard.
 
-3. Open a new window in icognito mode in your browser and paste the URL from the clipboard.
+3. Start your browser in **incognito/inPrivate** mode mode and paste the URL from the clipboard in the address bar.
 
    The **Welcome to ABAP_TARGET2!** page is opened.  
    ![System overview](images/ex0_target2_page.png)
