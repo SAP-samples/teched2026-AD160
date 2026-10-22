@@ -49,9 +49,8 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
     <th>Value</th>
   </tr>
   <tr>
-    <td>SAP BAIP, ABAP environment - <b>T02</b> -</td>
-    <td> ⚠ The SAP system URL will be provided by your instructors! ⚠</td>
-    <!-- https://url.sap/vq6gf5 -->
+    <td>SAP Business AI Platform, ABAP environment</td>
+    <td>⚠ The SAP system URL will be provided in the hand-outs! ⚠</td>
   </tr>
   <tr>
     <td>User</td>
@@ -79,18 +78,17 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 ---
 
 ### Exercises
-- [0.1 - Open Visual Studio Code](#exercise-01-open-visual-studio-code)
-- [0.2 - Connect Visual Studio Code to Your ABAP Cloud System](#exercise-02-connect-visual-studio-code-to-your-abap-system)
-- [0.3 - Handle your Group ID](#exercise-03-handle-your-group-id)
+- [0.1 - Open the System URL of the SAP Business AI Platform, ABAP Environment](#exercise-01-open-the-system-url-of-the-business-ai-platform-abap-environment)
+- [0.2 - Open Visual Studio Code and connect it to the ABAP System](#exercise-02-open-visual-studio-code-and-connect-it-to-the-abap-system)
+- [0.3 - Check your Group ID](#exercise-03-check-your-group-id)
 - [0.4 - Open your ABAP Package](#exercise-04-open-your-abap-package)
 - [0.5 - Verify the Installation](#exercise-05-verify-the-installation)
 - [0.6 - Explore the User Interface of Visual Studio Code User for ABAP Development](#exercise-06-explore-the-user-interface-of-visual-studio-code-for-abap-development)
-- [Summary & Next Exercise](#summary--next-exercise)
 
 <!--
 - [0.1 - Install Visual Studio Code](#exercise-01-install-visual-studio-code)
 - [0.2 - Install the ABAP Development Tools Extension](#exercise-02-install-the-abap-development-tools-for-vs-code-extension)
-- [0.3 - Connect Visual Studio Code to Your ABAP Cloud System](#exercise-03-connect-visual-studio-code-to-your-abap-system)
+- [0.3 - Connect Visual Studio Code to Your ABAP system](#exercise-03-connect-visual-studio-code-to-your-abap-system)
 - [0.4 - Handle your Group ID](#exercise-04-handle-your-group-id)
 - [0.5 - Open your ABAP Package](#exercise-05-Open-your-abap-package)
 - [0.6 - Verify the Installation](#exercise-06-verify-the-installation)
@@ -100,29 +98,25 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 
 ---
 
-## Exercise 0.1: Open the System URL of the Business AI Platform, ABAP Environment. 
+## Exercise 0.1: Open the System URL of the Business AI Platform, ABAP Environment 
 [^Top of page](#)
 
-In this exercise you will enter the short link that is provided in the hand-outs in a browser. As a result the URL will be resolved and you will be challenged to authenticate against the SAP Teched Identity Provider using the credentials that you will find on the hand-outs as well.
+In this exercise, you will enter the short link, which is provided in the hand-outs, in a browser. As a result, the URL will be resolved and you will be challenged to authenticate against the SAP Teched Identity Provider using the credentials that you will find on the hand-outs as well.
 
 <details>
   <summary>🔵 Click to expand!</summary>
 
 1. Start your browser from the icon on the desktop.
 
-2. Type the short link from the handout into the address bar of your browser.
+2. Type the short link from the hand-outs into the address bar of your browser.
 
-    > ℹ️ **Note**: You find the short link of the system URL in your handout on your desk.  
+    > ℹ️ **Note**: You find the short link of the system URL in your hand-outs on your desk.  
 
-3. Confirm with `Enter`.  
-<!--
-    d. If the **Welcome to ABAP_TARGET2!** page is opened, choose the link to **'tdct3ched2.accounts.ondemand.com'**.
+3. Confirm with `Enter`. 
+    
+    The **Sign In** page is opened.
 
-      ![System overview](images/ex0_target2_page.png)
--->
-      The **Sign In** page is opened.
-
-4. Enter your **`User`** and **`Password`** that is provided by the instructor in the handout on your desk.
+4. Enter your **`User`** and **`Password`** that is provided in the hand-outs on your desk.
 
       > ℹ️ **Note**: Display and check the copied input that **no** blanks were added.
     
@@ -233,9 +227,9 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 
 > Create a **destination** to establish a system connection to your ABAP system and add it to your workspace.  
+<!-- 
 > Choose the connection type that matches your system:
 > - **HTTP** — SAP Business AI Platform or SAP S/4HANA Cloud Public Edition  
-<!-- 
 > - **RFC** — SAP S/4HANA or SAP S/4HANA Cloud Private Edition (requires SAP Logon configured on your machine)
 -->
 
@@ -245,7 +239,7 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 3. Select **HTTP** as the connection type.
 
-4. Enter the **System URL** to the ABAP Cloud system. You can paste it from the clipboard into the command dialog in VS Code.
+4. Enter the **System URL** to the ABAP system. You can paste it from the clipboard into the command dialog in VS Code.
 
 5. Press **`Enter`**. 
 
@@ -259,11 +253,9 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 8. Choose the **`Add Destination to Workspace`** button.  
 
-The destination appears in the workspace in the **Explorer**.
+The destination appears in the workspace in the **Explorer** on the left.
 
 ![Display of the added destination](images/ex0_system_explorer_not_logged-on.png)
-
-> ℹ️ **Important Note**: Do not close the browser and keep your session open!
 
 > ⚠️ Here is a summery of the relevant steps and data to be used: 
 
@@ -272,9 +264,9 @@ The destination appears in the workspace in the **Explorer**.
      ↓
    Connection Type → HTTP
      ↓
-   System URL → 'See handout'
+   System URL → 'See hand-outs'
            ↓
-   Destination ID → 'See handout'
+   Destination ID → 'See hand-outs'
      ↓
    Add destination to the workspace
      ↓
@@ -330,9 +322,11 @@ The destination appears in the workspace.
 
 -->
 
+</details>
+
 ---
 
-##  Exercise 0.3 Add the destination to your workspace (_Optional_)
+### Add the destination to your workspace (_Optional_)
 
 > ⚠️ **Important**:  
 >In the last exercise you were asked to click the **`Add Destination to Workspace`** button. This exercise is only relevant, if you have **NOT** added the destination to your workspace yet. 
@@ -349,11 +343,11 @@ The destination appears in the workspace.
 ![Sample for selecting the relevant destination](images/ex0_destination_add_workspace.png)
 -->
 
-The destination appears in the workspace in the **Explorer**.
+The destination appears in the workspace in the **Explorer** on the left.
 
 ---
 
-### Log on your user to and connect your destination with the ABAP Cloud system 
+### Log on your user to and connect your destination with the ABAP system 
 
 > Next, you need to log on with your user to the ABAP system. Proceed as follows:
 
@@ -372,7 +366,7 @@ The destination appears in the workspace in the **Explorer**.
 
 4. Confirm with `Enter`.
 
-    The loggon will be confirmed and your user will be logged on the ABAP Cloud system.
+    The loggon will be confirmed and your user will be logged on the ABAP system.
 
     ![Success message in your browser](images/ex0_log-on_adt_page.png)
 
@@ -389,7 +383,10 @@ The destination appears in the workspace in the **Explorer**.
  ## Exercise 0.3: Check your Group ID
 [^Top of page](#)
 
-> ℹ️ **NOTE**: For the SAP events, the group ID will be provided by the instructor. The given group ID is part of the user name that you use for system logon, it is part of the name of the provided ABAP package, and it is used as suffix for the development objects to be created!
+> ℹ️ **NOTE**: For the SAP events, the group ID will be provided in the hand-outs. The given group ID ...
+> - is part of the user name that you use for system logon,
+> - is part of the name of the provided ABAP package, and 
+> - used as suffix for the development objects to be created!
 
 <!--
 <details>
