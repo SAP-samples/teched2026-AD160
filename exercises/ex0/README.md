@@ -344,15 +344,17 @@ The destination appears in the workspace.
 
 2. Type 'ABAP: Add Destination as Folder' and select **`ABAP: Add Destination as Folder to the Workspace...`**.
 
-3. Select your newly created destination.
+3. Select the created destination.
 
+<!--
 ![Sample for selecting the relevant destination](images/ex0_destination_add_workspace.png)
+-->
 
 The destination appears in the workspace in the **Explorer**.
 
 ---
 
-### Log on your user to and connect your destination with the ABAP system 
+### Log on your user to and connect your destination with the ABAP Cloud system 
 
 > Next, you need to log on your user to the ABAP system. Proceed as follows:
 
@@ -360,13 +362,13 @@ The destination appears in the workspace in the **Explorer**.
 
 2. Choose **Log On to Destination...** from the context menu.  
 
-  The **Log On to ...** dialog is opened from the list.
+    The **Log On to ...** dialog is opened from the list.
 
 3. Choose **Copy to Clipboard**.
 
-  ![Selecting the Copy to Clipboard option](images/ex0_logon_destination_clipboard.png)
+    ![Selecting the Copy to Clipboard option](images/ex0_logon_destination_clipboard.png)
 
-  The URL is stored in your clipboard.
+    The URL is stored in your clipboard.
 
 4. Switch back to the browser that is opened in **incognito/inPrivate** mode.
 
@@ -374,14 +376,15 @@ The destination appears in the workspace in the **Explorer**.
 
 6. Confirm with `Enter`.
 
-The loggon will be confirmed and your user will be logged on to the ABAP system.
+    The loggon will be confirmed and your user will be logged on to the ABAP system.
 
-  ![Success message in your browser](images/ex0_log-on_adt_page.png)
+    ![Success message in your browser](images/ex0_log-on_adt_page.png)
 
  7. Switch back to VS Code.
 
-  The system structure of your destination becomes available in the Explorer.
- ![Display of the system structure](images/ex0_system_explorer.png) 
+    The system structure of your destination becomes available in the **Explorer**.
+
+    ![Display of the system structure](images/ex0_system_explorer.png) 
 
 </details>
 
