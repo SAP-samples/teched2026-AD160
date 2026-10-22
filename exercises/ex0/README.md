@@ -101,7 +101,7 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 ## Exercise 0.1: Open the System URL of the Business AI Platform, ABAP Environment 
 [^Top of page](#)
 
-In this exercise, you will enter the short link, that is provided in the hand-outs, in a browser. As a result, the URL will be resolved and you will be challenged to authenticate against the SAP Teched Identity Provider using the credentials that you will find on the hand-outs as well.
+In this exercise, you will enter the short link, which is provided in the hand-outs, in a browser. As a result, the URL will be resolved and you will be challenged to authenticate against the SAP Teched Identity Provider using the credentials that you will find on the hand-outs as well.
 
 <details>
   <summary>🔵 Click to expand!</summary>
@@ -112,13 +112,15 @@ In this exercise, you will enter the short link, that is provided in the hand-ou
 
     > ℹ️ **Note**: You find the short link of the system URL in your hand-outs on your desk.  
 
-3. Confirm with `Enter`.  
+3. Confirm with `Enter`. 
+
 <!--
     d. If the **Welcome to ABAP_TARGET2!** page is opened, choose the link to **'tdct3ched2.accounts.ondemand.com'**.
 
       ![System overview](images/ex0_target2_page.png)
 -->
-      The **Sign In** page is opened.
+
+    The **Sign In** page is opened.
 
 4. Enter your **`User`** and **`Password`** that is provided by the instructor in the hand-outs on your desk.
 
