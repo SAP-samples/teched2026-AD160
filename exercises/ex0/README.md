@@ -132,7 +132,7 @@ In this exercise you will enter the short link that is provided in the hand-outs
 
     The **Fiori Launchpad** of the ABAP environment is opened.  
 
-    f. Copy the **System URL** from the address bar to the clipboard.
+6. Copy the **System URL** from the address bar to the clipboard.
 
     > ℹ️ **Note**: Only copy the URL **without** the `/ui#Shell-home` part at the end!
 
