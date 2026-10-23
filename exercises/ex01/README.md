@@ -5,9 +5,9 @@
 ## Introduction
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) is an open-source standard that allows AI models to securely communicate with external tools, applications, and data sources through a common protocol.
 
-The **ABAP Development Tools for VS Code** (ADT) extension contains the ADT MCP server that provides the ADT MCP tools. Theses tools connect your ABAP system on base of the ADT language server. They execute the relevant functionalities in the backend.  
+The **ABAP Development Tools for VS Code** (ADT) extension contains the ADT MCP server that provides the ADT MCP tools. These tools initialize the HTTP request through the ADT MCP server for execution in the backend.  
 
-> ℹ️ **Info**: In this handson session, you will use your coding agent in **Agent** mode together with the ADT MCP tools to generate a RAP UI service using the ABAP Cloud Generator and to create a complete transactional app (Travel + Booking RAP business object)—all driven by natural language prompts using the coding agent provided in the **Chat** view.
+> ℹ️ **Info**: In this hands-on session, you will use your coding agent in **Agent** mode together with the ADT MCP tools to generate a RAP UI service using the ABAP Cloud Generator and to create a complete transactional app (Travel + Booking RAP business object)—all driven by natural language prompts using the coding agent provided in the **Chat** view.
 
 ---
 
