@@ -339,6 +339,7 @@ The destination appears in the workspace.
     a. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).   
     b. Type 'ABAP: Add Destination as Folder' and select **`ABAP: Add Destination as Folder to the Workspace...`**.  
     c. In the dialog to be opened, select the destination from the list.  
+    ![Dialog with the list of the available](images/ex0_destination_add_workspace)  
     d. Confirm with **`Enter`**.  
     The destination becomes now visible in the **Explorer**.
 
