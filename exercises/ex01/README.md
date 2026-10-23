@@ -229,6 +229,6 @@ If the ADT MCP Server does not appear or fails to start:
 Now that you've:
 - Enabled the ADT MCP Server
 
-you can continue with the next exercise — **[Exercise 2: Generate the RAP UI Service and Preview the Travel App](../ex02/README.md)**
+you can continue with the next exercise — **[Exercise 2: Generate the RAP UI Service with ADT MCP Tools and Preview the Travel App](../ex02/README.md)**
 
 ----
