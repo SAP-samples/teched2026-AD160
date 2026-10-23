@@ -13,7 +13,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 - [4.3 - Preview and Test the Enhanced Travel App](#exercise-43-preview-and-test-the-enhanced-travel-app)
 - [Summary & Next Exercise](#summary--next-exercise)
 
-> ℹ️ **Reminder**: Don't forget to replace all occurrences of the placeholder **'###'** with your group ID in the exercise steps below.
+> ℹ️ **Reminder**: Don't forget to replace all occurrences of the placeholder **`###`** with your group ID in the exercise steps below.
 
 ---
 
@@ -25,7 +25,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the **Command Palette** (**'Ctrl+Shift+P'**) and type 'ABAP: Create new ABAP Object' or use **'Ctrl+Shift+Alt+N'** (macOS: **'Cmd+Option+Shift+N'**) to create a new ABAP Class.
+1. Open the **Command Palette** (**`Ctrl+Shift+P`**) and type 'ABAP: Create new ABAP Object' or use **`Ctrl+Shift+Alt+N`** (macOS: **`Cmd+Option+Shift+N`**) to create a new ABAP Class.
 
    - Package: **'ZAD160_AI_DEMO_###'**
    - Name: **'ZCL_TRAVEL_HELPER_###'**
@@ -36,7 +36,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
    ![create ABAP Class](images/ex04_create_abap_class.png)
 
 
-2. Paste the following code into the class, replacing **'###'** with your group ID:
+2. Paste the following code into the class, replacing **`###`** with your group ID:
 
    ```ABAP
    CLASS zcl_travel_helper_### DEFINITION
@@ -66,13 +66,13 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
    ENDCLASS.
    ```
 
-3. Save (**'Ctrl+S'**) and activate (**'Ctrl+F3'**) the class.
+3. Save (**`Ctrl+S`**) and activate (**`Ctrl+F3`**) the class.
 <!--
 4. Preview the data that is provided through the ABAP helper class.
    
    a. Open the **ZR_BOOKING_###* CDS table entity in the editor.
 
-   b. Open the **Command Palette** with **'Ctrl+Shift+P'** (macOS: **'Cmd+Shift+P'**) and type '>ABAP:New SQL Notebook'. Select then **>ABAP:New SQL Notebook**.
+   b. Open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**) and type '>ABAP:New SQL Notebook'. Select then **>ABAP:New SQL Notebook**.
 
    c. Enter the SQL statement to display the content of the data source.
 
@@ -100,7 +100,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the behaviour definition **'ZR_TRAVEL###'**, that is provided in the **Core Data Services** folder, in the edior. 
+1. Open the behaviour definition **'ZR_TRAVEL###'**, that is provided in the **Core Data Services** folder, in the editor. 
 
    ![Display of the behavior definition in the Explorer](images/ex04_open_zrtravel_cds.png)  
 
@@ -184,7 +184,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 
    To use predictive code completion, you need to enable the respective setting at first. Proceed as follows:
 
-   a. Open the **Command Palette** with **'Ctrl+Shift+P'** (macOS: **'Cmd+Shift+P'**) and type 'Preferences: Open Settings (UI)'. Select **Preferences: Open Settings...**.  
+   a. Open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**) and type 'Preferences: Open Settings (UI)'. Select **Preferences: Open Settings...**.  
    
    b. In the search bar, type:
 
@@ -210,7 +210,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the service binding **'ZUI_TRAVEL_O4###'** (use **'Ctrl+Shift+A'** to find it), select the **Travel** entity, and click the **Preview** code lens in the editor.
+1. Open the service binding **'ZUI_TRAVEL_O4###'** (use **`Ctrl+Shift+A`** to find it), select the **Travel** entity, and click the **Preview** code lens in the editor.
 
 2. In the app, click **Create** to start a new travel entry.
 

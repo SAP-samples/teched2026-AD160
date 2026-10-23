@@ -14,7 +14,7 @@ In this exercise, you will publish the local service endpoint of your OData V4 s
 - [3.2 - Preview the Travel App in the Browser](#exercise-32-preview-the-travel-app-in-the-browser)
 - [Summary & Next Exercise](#summary--next-exercise)
 
-> ℹ️ **Reminder**: Don't forget to replace all occurrences of the placeholder **'###'** with your group ID in the exercise steps below.
+> ℹ️ **Reminder**: Don't forget to replace all occurrences of the placeholder **`###`** with your group ID in the exercise steps below.
 
 ---
 
@@ -26,9 +26,9 @@ In this exercise, you will publish the local service endpoint of your OData V4 s
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the service binding using **'Ctrl+Shift+A'** and search for **'ZUI_TRAVEL_O4###'**. 
+1. Open the service binding using **`Ctrl+Shift+A`** and search for **'ZUI_TRAVEL_O4###'**. 
 
-2. Enter *'#type:SRVB'* and select the entry **Service Binding** (SRVB).
+2. Enter *`#type:SRVB`* and select the entry **Service Binding** (SRVB).
 
 ![Display of the type filter](images/ex03_type_srvb_open.png)
 
