@@ -11,7 +11,7 @@ This means, the ADT MCP Server exposes a set of ABAP development tools (so-calle
 
 > ℹ️ **Info**:  
 > In this SAP-driven hands-on session, ...
->-  the ADT MCP Server is already enabled in your VS Code installation on your laptop. Everything is already enabled for you. This chapter guides how to enable and to handle with the ADT MCP Server.
+>-  the ADT MCP Server is already enabled in your VS Code installation on your laptop. Everything is already enabled for you. This chapter guides you how to enable and to handle with the ADT MCP Server.
 >-  you will use your coding agent in **Agent** mode together with the ADT MCP Tools to generate a RAP UI service using the ABAP Cloud Generator and to create a complete transactional app ('Travel' + 'Booking' RAP business object)—all driven by natural language prompts using the coding agent provided in the **Chat** view.
 >- the exercises use [**GitHub Copilot**](https://docs.github.com/en/copilot/get-started/quickstart) as the coding agent. Any coding agent that supports Visual Studio Code's virtual workspace filesystem is compatible. GitHub Copilot is confirmed. Others are also supported.
 
@@ -71,7 +71,9 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
 ## Exercise 1.1: Verify the Enablement of the ADT MCP Server
 [^Top of page](#)
 
-> Verify the enablement the built-in ADT MCP Server in the Visual Studio Code extension settings.
+> Verify the enablement of the built-in ADT MCP Server in the settings of the ADT extension.
+
+> ℹ️ **Reminder**: For this SAP-internal hands-on session, the subsequent settings have already been enabled for you.
 
 <details>
   <summary>🔵 Click to expand</summary>
@@ -87,7 +89,7 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
    ```
     The findings in the **Extensions > ABAP Development** node are displayed.
 
-3.  Locate the **Adt: Enable MCP Server** setting (or similar) and enable it by checking the checkbox.
+3.  Locate the **Adt: Enable MCP Server** setting (or similar) and verify that this checkbox has been checked.
 
       ![ADT MCP Server setting enabled](images/ex01_adt_settings_enable_mcp.png)
 
@@ -95,7 +97,7 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
       ```
       json 'adt.mcpServer.enabled': true
       ```
-
+<!--
 4. Optionally, you can configure the **MCP server port** (default: '2236').  
    > ℹ️ **Note**: Only change this if port 2236 is occupied on your machine. Proceed as follows:  
    a. Search for **ADT MCP port** in the settings.   
@@ -104,9 +106,11 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
 5. **Reload Visual Studio Code** if prompted, or close and reopen the application.
 
    ![ADT MCP Server setting enabled](images/ex01_mcp_setting.png)
+-->
 
-   > ⚠️ **Important**: Make sure your system destination is still added to the workspace and you are logged on the to the ABAP system. The ADT MCP Server only starts once a destination is active in the workspace.  
-   > When starting the ADT MCP Server, a token is initially generated and will be used to access the ADT MCP Server.  
+   > ⚠️ **Important**: 
+  <!-- >- Make sure your system destination is still added to the workspace and you are logged on the to the ABAP system. The ADT MCP Server only starts once a destination is active in the workspace.  -->
+   > When starting the ADT MCP Server, a token is initially generated and will be used to access the ADT MCP Server. When enabling the checkbox from above the first time, it may take a few seconds until the token will be generated and displayed.  
    > ![Sample for a generated token](images/ex01_adt_mcp_token.png)  
    <!--
    > If you want to use only destinations, packages, and namespaces that are configured in the predefined allow list, you can set the **Adt > Mcp Server: Allowlist Enabled**. For this tutorial, you do not need to select this option.  
