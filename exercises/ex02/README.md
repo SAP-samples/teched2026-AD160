@@ -137,20 +137,20 @@ In this hands-on session, the ABAP Cloud Generator is exposed with an underlying
 
    > You should see entries for:
    >- Business Services:  
-         - Service definition: **ZUI_TRAVEL_04###** (SRVD)    
+         - Service definition: **ZUI_TRAVEL_04###** (SRVD)   
          - Service binding: **ZUI_TRAVEL_O4###** (SRVB)
    >- Core Data Services:  
          - Access Controls: **ZC_BOOKING_###, ZC_TRAVELL_###, ZR_BOOKING_###, ZR_TRAVELL_###**  (DCLS)  
-         - Behavior Definitions: **ZC_TRAVEL###, ZR_TRAVEL###** (BDEF)
+         - Behavior Definitions: **ZC_TRAVEL###, ZR_TRAVEL###** (BDEF)  
          - Data Definitions: **ZC_BOOKING_###, ZC_TRAVELL_###, ZR_BOOKING_###, ZR_TRAVELL_###** (DDLS)  
-         - Metadata Extensions: **ZC_BOOKING###, ZC_TRAVEL###** (DDLX)
+         - Metadata Extensions: **ZC_BOOKING###, ZC_TRAVEL###** (DDLX)  
    >- Dictionary:  
-         - Database Table: **ZBOOKING###, ZTRAVELL###, ZRBOOKING###, ZRTRAVELL###** (TABL)
-   >- SAP Object Type Management:  
+         - Database Table: **ZBOOKING###, ZTRAVELL###, ZRBOOKING###, ZRTRAVELL###** (TABL)  
+   >- SAP Object Type Management:   
          - SAP Object Node Types: **ZTRAVEL_###** (NONT)  
          - SAP Object Types: **ZTRAVEL__###** (RONT)  
-   >- Source Code Library:  
-         - Classes: **ZBP_C_TRAVEL###, ZBR_R_TRAVEL** (CLAS)
+   >- Source Code Library:   
+         - Classes: **ZBP_C_TRAVEL###, ZBR_R_TRAVEL** (CLAS)  
 
    > ℹ️ **Note**: If the development objects of the generated RAP UI service are not displayed in the structure of your ABPA package, you need to wait a moment or you can refresh the **Explorer**. Choose then the **Refresh Explorer** button from the integrated toolbar.  
    ![Refresh button displayed in the integrated toolbar](images/ex02_refesh_explorer.png) 
