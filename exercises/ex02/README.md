@@ -215,6 +215,6 @@ Now that you've:
 - Generated a complete transactional RAP UI service (Travel + Booking) using the ADT MCP tools
 - Activated all generated objects
 
-you can continue with the next exercise — **[Exercise 3: Generate a RAP UI Service and Preview the Travel App with ADT MCP Tools](../ex03/README.md)**
+you can continue with the next exercise — **[Exercise 3: Generate a RAP UI Service with ADT MCP Tools and Preview the Travel App](../ex03/README.md)**
 
 ----

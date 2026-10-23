@@ -1,6 +1,6 @@
 [Home - AD160 - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
 
-# Exercise 3: Generate a RAP UI Service and Preview the Travel App with ADT MCP Tools
+# Exercise 3: Generate a RAP UI Service with ADT MCP Tools and Preview the Travel App
 
 ## Introduction
 

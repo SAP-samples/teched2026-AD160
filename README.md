@@ -79,7 +79,7 @@ Follow these steps to build a SAP Fiori App using the ADT MCP Server and a codin
 | ------------- | -- |
 | [Getting Started](exercises/ex0/README.md)| -- | 
 | [Exercise 1: Get-to-Know and Verify the Enablement of the ADT MCP Server](exercises/ex01/README.md) | -- | 
-| [Exercise 2: Generate a RAP UI Service and Preview the Travel App with ADT MCP Tools](exercises/ex02/README.md) | -- | 
+| [Exercise 2: Generate a RAP UI Service with ADT MCP Tools and Preview the Travel App](exercises/ex02/README.md) | -- | 
 | [Exercise 3: Publish and Preview the Travel App](exercises/ex03/README.md)| -- |
 | [Exercise 4: Add a Validation](exercises/ex04/README.md)| -- |
 | [Exercise 5: Generate ABAP Unit Tests](exercises/ex05/README.md)| -- |
