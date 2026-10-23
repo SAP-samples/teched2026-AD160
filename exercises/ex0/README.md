@@ -338,7 +338,7 @@ The destination appears in the workspace.
   > ⚠️ **Important**:  If the destination is **not** visible in the **Explorer**, proceed as follows:  
     a. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).   
     b. Type 'ABAP: Add Destination as Folder' and select **`ABAP: Add Destination as Folder to the Workspace...`**.  
-    c. In the dialog to be opened, select the destination from the list.  
+    c. In the dialog to be opened, select the destination `AD160` from the list.  
     ![Dialog with the list of the available destinations](images/ex0_destination_selection_list.png)  
     d. Confirm with **`Enter`**.  
     The destination becomes now visible in the **Explorer**.
@@ -366,7 +366,8 @@ The destination appears in the workspace.
  ## Exercise 0.4: Check your Group ID
 [^Top of page](#)
 
-> ℹ️ **NOTE**: For the SAP events, the group ID will be provided in the hand-outs. The given group ID ...
+> ℹ️ **NOTE**: For the SAP events, the group ID will be provided in the hand-outs. 
+> The given group ID ...
 > - is part of the user name that you use for system logon,
 > - is part of the name of the provided ABAP package, and 
 > - used as suffix for the development objects to be created!
@@ -552,7 +553,9 @@ Open ADT for VS Code and get familiar with the [ADT extension](https://help.sap.
 | Run ABAP Unit Tests | **`Ctrl+Shift+F10`** | **`Cmd+Shift+F10`** |
 | Open Documentation | **`Ctrl+Shift+D`** | **`Cmd+Shift+D`** |
 
-> ℹ️ **Hint**: Use **Find/Replace** (**`Ctrl+H`**) to replace all occurrences of `###` with your group ID at once in any file. For more information, see [Keyboard Shortcuts for ABAP Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/keyboard-shortcuts-for-abap-development)
+> ℹ️ **Note**: 
+>- Use **Find/Replace** (**`Ctrl+H`**) to replace all occurrences of `###` with your group ID at once in any file. For more information, see [Keyboard Shortcuts for ABAP Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/keyboard-shortcuts-for-abap-development)
+>- The tutorial is based on Microsoft Windows as operating system. For macOS, use the `cmd` key instead of the `Ctrl` key. 
 
 ### Navigating within your ABAP system
 
