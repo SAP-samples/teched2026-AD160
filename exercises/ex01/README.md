@@ -126,6 +126,8 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
 
 > Check and confirm that the ADT MCP Server started successfully.
 
+> ℹ️ **Reminder**: For this SAP-internal hands-on session, the ABAP MCP Server is already running. The following steps guide you, how to check availability and to run the ADT MCP Server.
+
 <details>
 
 After enabling the setting and having a destination in the workspace, the server should start automatically.
@@ -140,7 +142,7 @@ After enabling the setting and having a destination in the workspace, the server
 
    > ℹ️ If you don't see the notification, proceed to Method 2.  
 
-**Method 2: Check via MCP Server list**
+**Method 2: Check using the MCP Server list**
 
 1. Open the **Command Palette** (**`Ctrl+Shift+P`**).
 
