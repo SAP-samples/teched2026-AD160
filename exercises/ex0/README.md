@@ -80,7 +80,7 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 ### Exercises
 - [0.1 - Open the System URL of the SAP Business AI Platform, ABAP Environment](#exercise-01-open-the-system-url-of-the-business-ai-platform-abap-environment)
 - [0.2 - Open Visual Studio Code and connect it to the ABAP System](#exercise-02-open-visual-studio-code-and-connect-it-to-the-abap-system)
-- [0.3 - Add the destination to your workspace (Optional)](#exercise-03-add-the-destination-to-your-workspace-optional)
+- [0.3 - Log on to the ABAP system](#exercise-03-log-on-to-the-abap-system)
 - [0.4 - Check your Group ID](#exercise-04-check-your-group-id)
 - [0.5 - Open your ABAP Package](#exercise-05-open-your-abap-package)
 - [0.6 - Verify the Installation](#exercise-06-verify-the-installation)
@@ -224,9 +224,6 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
   > ℹ️ **NOTE**: The [**ADT for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension is also already installed into your Visual Studio Code installation. This extension enables you for ABAP development and contains the built-in ADT MCP Server with the ADT MCP Tools.
 
-
-
-
 > Create a **destination** to establish a system connection to your ABAP system and add it to your workspace.  
 <!-- 
 > Choose the connection type that matches your system:
@@ -327,33 +324,29 @@ The destination appears in the workspace.
 
 ---
 
-## Exercise 0.3: Add the destination to your workspace (_Optional_)
+## Exercise 0.3: Log on to the ABAP system
 
-> ⚠️ **Important**:  
->In the last exercise you were asked to click the **`Add Destination to Workspace`** button. This exercise is only relevant, if you have **NOT** added the destination to your workspace yet. 
-> - If you have already added the destination to your workspace, you can skip the following step.  
-> - If you have missed to add the destination in your workspace in the **Explorer**, you need to proceed as follows:
+>Log on to the ABAP system with your user credentials via the destination.
 
 <details>
   <summary>🔵 Click to expand!</summary>
 
-
-1. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).
-
-2. Type 'ABAP: Add Destination as Folder' and select **`ABAP: Add Destination as Folder to the Workspace...`**.
- 
-   The destination appears in the workspace in the **Explorer** on the left.
-
-3. Select the created destination `AD160` in the **Explorer** and choose **Log On to Destination...** from the context menu.   
-   
+1. Select the created destination `AD160` in the **Explorer** and choose **Log On to Destination...** from the context menu.      
 
    ![Logon to dest from project](images/ex0-logon-to-destination-from-project.png)
 
-4. The **Log On to ...** dialog is opened. Choose **Open with Default Browser**.
+  > ⚠️ **Important**:  If the destination is **not** visible in the **Explorer**, proceed as follows:  
+    > a. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).   
+    > b. Type 'ABAP: Add Destination as Folder' and select **`ABAP: Add Destination as Folder to the Workspace...`**.  
+    > c. In the dialog to be opened, select the destination from the list.  
+    > d. Confirm with **`Enter`**.  
+    > The destination becomes now visible in the **Explorer**.
+
+3. The **Log On to ...** dialog is opened. Choose **Open with Default Browser**.
 
     ![Selecting the Open with default browser option](images/ex0-authenticate-destination.png)
 
-5. Confirm with `Enter`.
+4. Confirm with **`Enter`**.
 
     The loggon will be confirmed and your user will be logged on the ABAP system.
 
