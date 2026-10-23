@@ -126,7 +126,7 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
 
 > Check and confirm that the ADT MCP Server started successfully.
 
-> ℹ️ **Reminder**: For this SAP-internal hands-on session, the ABAP MCP Server is already running. The following steps guide you, how to check availability and to run the ADT MCP Server.
+> ℹ️ **Reminder**: For this SAP-internal hands-on session, the ABAP MCP Server is already running. The following steps guide you, how to check the availability and how to start the ADT MCP Server. 
 
 <details>
 
@@ -193,17 +193,17 @@ If the ADT MCP Server does not appear or fails to start:
 
 > Open the **Chat** view of your coding agent in the agent mode. Confirm that the ADT MCP Tools are loaded and available.
 
+> ℹ️ **Reminder**: For this SAP-internal hands-on session, **GitHub Copilot** as the coding agent is already installed and ready for use on your laptop.
+
 <details>
 
 
-1. If the **Chat** view is not displayed by default, open the GitHub Copilot **Chat** view in Visual Studio Code.
+1. If the **Chat** view is not displayed by default, open the GitHub Copilot **Chat** view in Visual Studio Code. You have the following possiblities to do this:  
+    >- Click the **Copilot** icon in the **Activity Bar** (left), **or**
+    >- choose *`View`* > *`Chat`* from the menu, **or**
+    >- press **`Ctrl+Shift+I`** (macOS: **`Cmd+Shift+I`**)
 
       ![GitHub Copilot Chat view](images/ex01_github_copilot_chat.png)
-
-    > ℹ️ **Note**: You have the following possiblities to do this:  
-    >- Click the **Copilot** icon in the **Activity Bar** (left),
-    >- choose *`View`* > *`Chat`* from the menu, or
-    >- press **`Ctrl+Shift+I`** (macOS: **`Cmd+Shift+I`**)
 
 2. Click the **Configure Tools** (tools wrench icon) button in the Copilot chat input bar.  
    A quick pick list appears showing available tool providers. 
@@ -214,11 +214,10 @@ If the ADT MCP Server does not appear or fails to start:
 
       ![List of the available ADT MCP Tools](images/ex01_adt_mcp_server_tools_list.png)
 
-      
-
-   > ✅ If you see the ADT MCP Server and its tools listed, your setup is complete!
 
 3. Check and ensure the ADT MCP Tools are **checked/enabled** in the list.
+
+   If you see the ADT MCP Server and its ADT MCP Tools are listed, your setup is complete!
 
 </details>
 
