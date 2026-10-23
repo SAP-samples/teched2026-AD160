@@ -96,7 +96,7 @@ In this hands-on session, the ABAP Cloud Generator is exposed with an underlying
    > ℹ️ **Note**: If no ADT MCP server is available, see [Exercise: Enable the ADT MCP Server in ABAP Development Tools for VS Code](https://developers.sap.com/hands-on sessions/abap-dev-adt-mcp-server-tools) hands-on session.
 -->
 
-3. Allow the 'abap_generators-get_schema' tool call. Review the schema`. It shows what fields the generator expects (entity names, field lists, suffixes, etc.).
+3. Check and allow the 'abap_generators-get_schema' tool call. Review the schema. It shows what fields the generator expects (entity names, field lists, suffixes, etc.).
 
 ### Step 2: Run the generator
 
@@ -124,7 +124,7 @@ In this hands-on session, the ABAP Cloud Generator is exposed with an underlying
 6. Process each tool call when the coding agent asks in the **Chat** view.
 
    > ℹ️ **Note**:  
-   **Allow each tool call** when prompted.  
+   **Check and allow each tool call** when prompted.  
    The ABAP Cloud generator may take a moment to run. Progress will always be shown.  
    It will likely call:  
    >- 'abap_generators-get_schema' — to retrieve the generator input schema
