@@ -5,14 +5,15 @@
 ## Introduction
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) is an open-source standard that allows AI models to securely communicate with external tools, applications, and data sources through a common protocol.
 
-The **ABAP Development Tools for VS Code** (ADT) extension contains the **ADT MCP Server**. This is a local HTTP server that is integrated in and runs inside the ADT extension in VS Code. It implements the Model Context Protocol (MCP) to call ADT MCP Tools in a structured, authenticated way and exposes ABAP development capabilities as MCP tools. 
+The **ABAP Development Tools for VS Code** (ADT) extension contains the **ADT MCP Server**. This is a local HTTP server that is integrated in and runs inside the ADT extension in VS Code. It implements the Model Context Protocol (MCP) to call ADT MCP Tools in a structured, authenticated way and exposes ABAP development capabilities as ADT MCP Tools. 
 
 This means, the ADT MCP Server exposes a set of ABAP development tools (so-called ADT MCP Tools) to any MCP-compatible AI assistant. This allows you to create packages, to create transport requests, to generate complete RAP applications, activate objects, and more through natural language prompts.  
 
 > ℹ️ **Info**: 
->- In this hands-on session, you will use your coding agent in **Agent** mode together with the ADT MCP Tools to generate a RAP UI service using the ABAP Cloud Generator and to create a complete transactional app (Travel + Booking RAP business object)—all driven by natural language prompts using the coding agent provided in the **Chat** view.
->- For this SAP-driven event, the ADT MCP Server is already enabled in your ADT for VS Code installation on your laptop.  
->- In this hands-on session, the exercises use [**GitHub Copilot**](https://docs.github.com/en/copilot/get-started/quickstart) as the coding agent. Any coding agent that supports Visual Studio Code's virtual workspace filesystem is compatible. GitHub Copilot is confirmed. Others are also supported.
+> In this SAP-driven hands-on session, ...
+>-  the ADT MCP Server is already enabled in your VS Code installation on your laptop. You need nothing to do. This chapter is for informational purpose!
+>-  you will use your coding agent in **Agent** mode together with the ADT MCP Tools to generate a RAP UI service using the ABAP Cloud Generator and to create a complete transactional app ('Travel' + 'Booking' RAP business object)—all driven by natural language prompts using the coding agent provided in the **Chat** view.
+>- the exercises use [**GitHub Copilot**](https://docs.github.com/en/copilot/get-started/quickstart) as the coding agent. Any coding agent that supports Visual Studio Code's virtual workspace filesystem is compatible. GitHub Copilot is confirmed. Others are also supported.
 
 > ⚠ **Warning regarding AI outputs** ⚠  
 > The ADT MCP Server is an **experimental feature** that may change at any time without notice. It is not intended for productive use. Please back up your data before using it.
