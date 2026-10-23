@@ -555,7 +555,7 @@ Open ADT for VS Code and get familiar with the [ADT extension](https://help.sap.
 
 > ℹ️ **Note**: 
 >- Use **Find/Replace** (**`Ctrl+H`**) to replace all occurrences of `###` with your group ID at once in any file. For more information, see [Keyboard Shortcuts for ABAP Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/keyboard-shortcuts-for-abap-development)
->- The tutorial is based on Microsoft Windows as operating system. For macOS, use the `cmd` key instead of the `Ctrl` key. 
+>- The tutorial is based on Microsoft Windows as operating system. For macOS, use the `Cmd` key instead of the `Ctrl` key. 
 
 ### Navigating within your ABAP system
 
