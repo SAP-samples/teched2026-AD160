@@ -251,7 +251,7 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 8. Choose the **`Add Destination to Workspace`** button.  
 
-    The **Selection** dialog is opened.
+    The **Selection** command dialog is opened.
 
 9. Select the destination from the list and confirm with **Enter**.
 
