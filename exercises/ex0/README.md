@@ -58,7 +58,7 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
   </tr>
   <tr>
     <td>Password</td>
-    <td>⚠ will be provided by your instructors ⚠</td>
+    <td>⚠ will be provided in the hand-outs! ⚠</td>
   </tr>
   <tr>
     <td>Exercise ABAP Package</td>
