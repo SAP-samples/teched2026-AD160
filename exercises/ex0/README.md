@@ -336,11 +336,11 @@ The destination appears in the workspace.
    ![Logon to dest from project](images/ex0-logon-to-destination-from-project.png)
 
   > ⚠️ **Important**:  If the destination is **not** visible in the **Explorer**, proceed as follows:  
-    > a. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).   
-    > b. Type 'ABAP: Add Destination as Folder' and select **`ABAP: Add Destination as Folder to the Workspace...`**.  
-    > c. In the dialog to be opened, select the destination from the list.  
-    > d. Confirm with **`Enter`**.  
-    > The destination becomes now visible in the **Explorer**.
+    a. Open the **Command Palette** using **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).   
+    b. Type 'ABAP: Add Destination as Folder' and select **`ABAP: Add Destination as Folder to the Workspace...`**.  
+    c. In the dialog to be opened, select the destination from the list.  
+    d. Confirm with **`Enter`**.  
+    The destination becomes now visible in the **Explorer**.
 
 3. The **Log On to ...** dialog is opened. Choose **Open with Default Browser**.
 
