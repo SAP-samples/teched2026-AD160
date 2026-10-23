@@ -251,6 +251,10 @@ The ADT extension should be installed and opens the **ABAP Development Tools for
 
 8. Choose the **`Add Destination to Workspace`** button.  
 
+    The **Selection** dialog is opened.
+
+9. Select the destination from the list and confirm with **Enter**.
+
 The destination appears in the workspace in the **Explorer** on the left.
 
 ![Display of the added destination](images/ex0_system_explorer_not_logged-on.png)
