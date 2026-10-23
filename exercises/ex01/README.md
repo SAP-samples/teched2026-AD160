@@ -5,10 +5,47 @@
 ## Introduction
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) is an open-source standard that allows AI models to securely communicate with external tools, applications, and data sources through a common protocol.
 
-The **ABAP Development Tools for VS Code** (ADT) extension contains the ADT MCP server that provides the ADT MCP tools. These tools initialize the HTTP request through the ADT MCP server for execution in the backend.  
+The **ABAP Development Tools for VS Code** (ADT) extension contains the ADT MCP server that provides the ADT MCP tools. These tools initialize the HTTP request for execution in the backend through the ADT MCP server.  
 
-> ℹ️ **Info**: In this hands-on session, you will use your coding agent in **Agent** mode together with the ADT MCP tools to generate a RAP UI service using the ABAP Cloud Generator and to create a complete transactional app (Travel + Booking RAP business object)—all driven by natural language prompts using the coding agent provided in the **Chat** view.
+The **ADT MCP Server** is a local HTTP server that is integrated in and runs inside the ADT extension. It implements the Model Context Protocol (MCP) to call tools in a structured, authenticated way and exposes ABAP development capabilities as MCP tools. 
 
+This means, the ADT MCP server exposes a set of ABAP development tools to any MCP-compatible AI assistant. This allows you to create packages, to create transport requests, to generate complete RAP applications, activate objects, and more through natural language prompts.  
+
+> ℹ️ **Info**: 
+>- In this hands-on session, you will use your coding agent in **Agent** mode together with the ADT MCP tools to generate a RAP UI service using the ABAP Cloud Generator and to create a complete transactional app (Travel + Booking RAP business object)—all driven by natural language prompts using the coding agent provided in the **Chat** view.
+>- For this SAP-driven event, the ADT MCP server is already enabled in your ADT for VS Code installation on your laptop.  
+>- In this hands-on session, the exercises use [**GitHub Copilot**](https://docs.github.com/en/copilot/get-started/quickstart) as the coding agent. Any coding agent that supports Visual Studio Code's virtual workspace filesystem is compatible. GitHub Copilot is confirmed. Others are also supported.
+
+> ⚠ **Warning regarding AI outputs** ⚠  
+> The ADT MCP Server is an **experimental feature** that may change at any time without notice. It is not intended for productive use. Please back up your data before using it.
+
+<!--
+**Key tools available through the ADT MCP Server:**  
+For example, the following ADT MCP tools are available:
+
+| Tool | Description |
+|------|-------------|
+|abap_activate_objects|Activates ABAP objects in the ABAP system|
+|abap_atc_apply_ai|Start applying AI fixes for every eligible finding in an ATC worklist result|
+|abap_atc_execute_deterministic_quickfixes|Executes the deterministic quick fixes|
+|abap_atc_run|Gets the result of an ABAP Test Cockpit (ATC) run by its corresponding worklist|
+|abap_createion-crate_object|Executes the creation of ABAP development objects|
+|abap_creation-get_all_createable_objects|Gets a list of all ABAP createable objects|
+|abap_creation-get_object_type_details|Gets details required for creating an ABAP object such as name, description|
+|abap_generators-generate_objects|Validates and generates ABAP RAP objects using the RAP generator|
+|abap_generators-list_generators|Lists the available ABAP RAP generators|
+|abap_list_destinations|Gets a list of available destinations in an ABAP system|
+|abap_run_unit_tests|Runs ABAP unit tests for a given set of objects|
+|abap_transport-create|Creates a transport request|
+|abap_transport-get|Validates and displays relevant transport requests for a given object|
+|
+-->
+
+> **Further reading**:
+>- [ADT MCP Tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/mcp-tools?locale=en-US) 
+>- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
+>- [ADT Security Considerations and Recommendations](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/security-recommendations-and-considerations)  
+>- [Agentic AI for ABAP Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/agentic-ai-development?locale=en-US)  
 ---
 
 <!--
@@ -33,51 +70,12 @@ To use the ADT MCP tools in ADT for VS Code, the ADT MCP server needs to run. To
 ---
 
 ## Exercise 1.1: Verify the Enablement of the ADT MCP Server
+[^Top of page](#)
 
-The **ADT MCP Server** is a local HTTP server that is integrated in and runs inside the ADT extension. It implements the Model Context Protocol (MCP) to call tools in a structured, authenticated way and exposes ABAP development capabilities as MCP tools. 
-
-This means, the ADT MCP server exposes a set of ABAP development tools to any MCP-compatible AI assistant. This allows you to create packages, to create transport requests, to generate complete RAP applications, activate objects, and more through natural language prompts.  
-
-> ℹ️ **Info**: 
->- For this SAP-driven event, the ADT MCP server is already enabled in your ADT for VS Code installation on your laptop.  
->- In this workshop, the exercises use **GitHub Copilot** (see [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/get-started/quickstart)) as the coding agent. Any coding agent that supports Visual Studio Code's virtual workspace filesystem is compatible. GitHub Copilot is confirmed. Others are also supported.
+> Verify the enablement the built-in ADT MCP Server in the Visual Studio Code extension settings.
 
 <details>
   <summary>🔵 Click to expand</summary>
-
-<!--
-**Key tools available through the ADT MCP Server:**  
-For example, the following ADT MCP tools are available:
-
-| Tool | Description |
-|------|-------------|
-|abap_activate_objects|Activates ABAP objects in the ABAP system|
-|abap_atc_apply_ai|Start applying AI fixes for every eligible finding in an ATC worklist result|
-|abap_atc_execute_deterministic_quickfixes|Executes the deterministic quick fixes|
-|abap_atc_run|Gets the result of an ABAP Test Cockpit (ATC) run by its corresponding worklist|
-|abap_createion-crate_object|Executes the creation of ABAP development objects|
-|abap_creation-get_all_createable_objects|Gets a list of all ABAP createable objects|
-|abap_creation-get_object_type_details|Gets details required for creating an ABAP object such as name, description|
-|abap_generators-generate_objects|Validates and generates ABAP RAP objects using the RAP generator|
-|abap_generators-list_generators|Lists the available ABAP RAP generators|
-|abap_list_destinations|Gets a list of available destinations in an ABAP system|
-|abap_run_unit_tests|Runs ABAP unit tests for a given set of objects|
-|abap_transport-create|Creates a transport request|
-|abap_transport-get|Validates and displays relevant transport requests for a given object|
-|
--->
-
-> ⚠ **Warning regarding AI outputs** ⚠  
-> The ADT MCP Server is an **experimental feature** that may change at any time without notice. It is not intended for productive use. Please back up your data before using it.
-
-> **Further reading**:
->- [ADT MCP Tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/mcp-tools?locale=en-US) 
->- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
->- [ADT Security Considerations and Recommendations](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/security-recommendations-and-considerations)  
->- [Agentic AI for ABAP Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/agentic-ai-development?locale=en-US)  
-
-
-> Verify the enablement the built-in ADT MCP Server in the Visual Studio Code extension settings.
 
 1. Open the settings of **Visual Studio Code** as follows:  
 
