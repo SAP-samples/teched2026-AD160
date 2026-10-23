@@ -1,6 +1,6 @@
 [Home - AD160 - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
 
-# Exercise 2: Generate the App via MCP Tools
+# Exercise 2: Generate the RAP UI Service and Preview the Travel App
 
 ## Introduction
 
@@ -215,6 +215,6 @@ Now that you've:
 - Generated a complete transactional RAP UI service (Travel + Booking) using the ADT MCP tools
 - Activated all generated objects
 
-you can continue with the next exercise — **[Exercise 3: Publish the RAP UI Service and Preview the Travel App](../ex03/README.md)**
+you can continue with the next exercise — **[Exercise 3: Generate the SAP Fiori App via ADT MCP Tools](../ex03/README.md)**
 
 ----

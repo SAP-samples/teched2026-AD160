@@ -1,6 +1,6 @@
 [Home - AD160 - Build apps and web APIs with ABAP Cloud using agentic AI](../../README.md)
 
-# Exercise 3: Publish the RAP UI Service and Preview the Travel App
+# Exercise 3: Generate the SAP Fiori App via ADT MCP Tools
 
 ## Introduction
 
