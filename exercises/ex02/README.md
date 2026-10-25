@@ -50,7 +50,7 @@ In this hands-on session, the ABAP Cloud Generator is exposed with an underlying
 
    > ℹ️ **Note**: It depends on your settings, if **Agent** or **Plan** mode is set. **Agent** performs the changes directly in your package. **Plan** simulates and displays possible changes. This gives you the chance to deny the changes before adapting the source code.
 
-2. In the **Chat** view of your coding agen, type ...
+2. In the **Chat** view of your coding agent, type ...
 
    ```
    List all available ABAP RAP generators using the MCP tool.
@@ -152,7 +152,7 @@ In this hands-on session, the ABAP Cloud Generator is exposed with an underlying
    >- Source Code Library:   
          - Classes: **ZBP_C_TRAVEL###, ZBR_R_TRAVEL** (CLAS)  
 
-   > ℹ️ **Note**: If the development objects of the generated RAP UI service are not displayed in the structure of your ABPA package, you need to wait a moment or you can refresh the **Explorer**. Choose then the **Refresh Explorer** button from the integrated toolbar.  
+   > ℹ️ **Note**: If the development objects of the generated RAP UI service are not displayed in the structure of your ABAP package, you need to wait a moment or you can refresh the **Explorer**. Choose then the **Refresh Explorer** button from the integrated toolbar.  
    ![Refresh button displayed in the integrated toolbar](images/ex02_refesh_explorer.png) 
 
 <!--

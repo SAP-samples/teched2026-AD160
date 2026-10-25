@@ -41,13 +41,13 @@ To complete the practical exercises, you need:
 
 >> #### ⚠ Exception regarding SAP-led events, such as "ABAP Developer Day", "SAP TechEd", "SAP CodeJam", and so on:
 >> → A dedicated ABAP system* for the hands-on session participants will be provided.  
->> → At dedicated SAP events, SAP will provide laptops. In this case, all the relevant software is already installed. This also includes a license for **GitHub Copilot** extension as **coding agend** in Visual Studio Code.  
+>> → At dedicated SAP events, SAP will provide laptops. In this case, all the relevant software is already installed. This also includes a license for **GitHub Copilot** extension as **coding agent** in Visual Studio Code.  
 >> → Access to the ABAP system* details for the session will be provided by the SAP instructors during the session.
 
 
 ## Overview
 
-> In this hands-on session, you will learn how to use the **ADT MCP Server** to build a transactional SAP Fiori elements app entirely from Visual Studio Code an the ABAP Development Tools for Visual Studio Code extension — using AI-powered generation, code enhancement, and ABAP Unit test support — powered by ABAP Cloud and the ABAP RESTful Application Programming Model (RAP).
+> In this hands-on session, you will learn how to use the **ADT MCP Server** to build a transactional SAP Fiori elements app entirely from Visual Studio Code and the ABAP Development Tools for Visual Studio Code extension — using AI-powered generation, code enhancement, and ABAP Unit test support — powered by ABAP Cloud and the ABAP RESTful Application Programming Model (RAP).
 
 <details>
   <summary>🔵 Click to expand!</summary>
@@ -64,7 +64,7 @@ To complete the practical exercises, you need:
   - Run ABAP Unit tests from Visual Studio Code.  
 
   and optionally, to ...
-  - Debugg the app from Visual Studio Code.
+  - Debug the app from Visual Studio Code.
   - Adding the implementation of a new field to an existing RAP UI service using the **coding agent**.
 
 </details>

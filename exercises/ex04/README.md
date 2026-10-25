@@ -8,7 +8,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 
 ### Exercises
 
-- [4.1 - Create an ABAP helper class](#exercise-41-create-an-ABAP-help-class)
+- [4.1 - Create an ABAP helper class](#exercise-41-create-an-abap-helper-class)
 - [4.2 - Define and Implement the Validation](#exercise-42-define-and-implement-the-validation)
 - [4.3 - Preview and Test the Enhanced Travel App](#exercise-43-preview-and-test-the-enhanced-travel-app)
 - [Summary & Next Exercise](#summary--next-exercise)
@@ -100,7 +100,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the behaviour definition **'ZR_TRAVEL###'**, that is provided in the **Core Data Services** folder, in the editor. 
+1. Open the behavior definition **'ZR_TRAVEL###'**, that is provided in the **Core Data Services** folder, in the editor. 
 
    ![Display of the behavior definition in the Explorer](images/ex04_open_zrtravel_cds.png)  
 

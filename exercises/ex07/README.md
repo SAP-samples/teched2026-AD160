@@ -64,7 +64,7 @@ The implementation shall be performed using a coding agent, e.g. GitHub Copilot,
   - CDS metadata extension
   - Behavior definition
   - Behavior implementation
-  - Projection behavior implementation, if the determination exporsure requires it
+  - Projection behavior implementation, if the determination exposure requires it
   - Service definition
   - Service binding
   - Database table
@@ -98,7 +98,7 @@ The AI changes and activates the following development objects:
    - ZC_TRAVEL (CDS projection view)
 and lists them in the **Chat** view.
 
-In these objects, the AI adda the new field as follows:
+In these objects, the AI adds the new field as follows:
 
    ```
    CarbonFootprint : abap.dec(10,2)
@@ -135,7 +135,7 @@ In addition, you can test the implementation of the field:
 
     c. Choose **F12** or **Go to Definition** from the context menu. 
 
-    The **ZTRAVEL_###** database table will be opened and the cursor is positioned at the relevant occurence within the source code.  
+    The **ZTRAVEL_###** database table will be opened and the cursor is positioned at the relevant occurrence within the source code.  
 
   > ℹ️ **Info**: If the new field is not visible in the app, proceed then as follows:  
     >  a. If the app is still opened in the browser, just refresh it. Otherwise, preview it again from the service binding.  
@@ -187,7 +187,7 @@ Use existing RAP patterns within the package.
 
 The coding agent lists the development objects where the new business logic will be added and implemented. 
 
-As a result, the a value of field **booking_fee** is calcuated.
+As a result, the value of field **booking_fee** is calculated.
 
 </details>
 
@@ -198,7 +198,7 @@ As a result, the a value of field **booking_fee** is calcuated.
 
 >After implementing the business logic, the value of field **CarbonFootprint** will be calculated. However, the value on the screen will not be refreshed automatically. So, the user would be forced to refresh the browser manually.  
 
-To achieve a better user experience for users, the content of the field **CarbonFootprint** needs to be refreshed automtically. To do so, implement [side effects](https://help.sap.com/docs/abap-cloud/abap-rap/developing-side-effects).
+To achieve a better user experience for users, the content of the field **CarbonFootprint** needs to be refreshed automatically. To do so, implement [side effects](https://help.sap.com/docs/abap-cloud/abap-rap/developing-side-effects).
 
 <details>
   <summary>🔵 Click to expand!</summary>
@@ -208,7 +208,7 @@ To achieve a better user experience for users, the content of the field **Carbon
 2. In the **Chat** view, use the **Agent** mode and type:  
 
 ```markdown  
-Add side effects so that field CarbonFoodPrint gets reloaded when field bookingfee has been updated.
+Add side effects so that field CarbonFootprint gets reloaded when field bookingfee has been updated.
 ```
 
 </details>

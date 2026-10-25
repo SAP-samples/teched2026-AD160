@@ -198,7 +198,7 @@ If the ADT MCP Server does not appear or fails to start:
 <details>
 
 
-1. If the **Chat** view is not displayed by default, open the GitHub Copilot **Chat** view in Visual Studio Code. You have the following possiblities to do this:  
+1. If the **Chat** view is not displayed by default, open the GitHub Copilot **Chat** view in Visual Studio Code. You have the following possibilities to do this:  
     >- Click the **Copilot** icon in the **Activity Bar** (left), **or**
     >- choose *`View`* > *`Chat`* from the menu, **or**
     >- press **`Ctrl+Shift+I`** (macOS: **`Cmd+Shift+I`**)

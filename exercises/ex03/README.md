@@ -44,7 +44,7 @@ In this exercise, you will publish the local service endpoint of your OData V4 s
 
    > ✅ You should see on the bottom _Publish/unpublish action in progress_.
 
-      ![Status information about the publishin process in the primary side bar on the bottom left](images/ex03_execution_publishing_status.png)
+      ![Status information about the publishing process in the primary side bar on the bottom left](images/ex03_execution_publishing_status.png)
 
 </details>
 
@@ -66,11 +66,11 @@ In this exercise, you will publish the local service endpoint of your OData V4 s
    
    ![Select entity](images/ex03_select_entity.png)
 
-3. In the dialog to be opened of you operating system, choose **Open** to confirm opening the link in your default browser.
+3. In the dialog to be opened of your operating system, choose **Open** to confirm opening the link in your default browser.
 
    ![Windows dialog to open the app in the default browser ](images/ex03_preview_travel_selection_entity_open_browser.png)
 
-   You default browser is opened and displays the **Preview** for your **Travel** application.
+   Your default browser is opened and displays the **Preview** for your **Travel** application.
 
 3. Try creating a new 'Travel' entity as follows:  
    a. Click **Create** and enter some fields, such as **Destination**, **Starting Date**, **End Date**.  
