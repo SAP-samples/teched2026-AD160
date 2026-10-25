@@ -117,7 +117,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 
    Add the validation to the prepare action.
    
-   Ask to review changes before proceeding with the activation.
+   Ask for reviewing changes before proceeding with activation.
    ```
 
 3. Your coding agent will propose changes to both the behavior definition and the implementation class. 
@@ -184,7 +184,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 
    To use predictive code completion, you need to enable the respective setting at first. Proceed as follows:
 
-   a. Open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**) and type 'Preferences: Open Settings (UI)'. Select **Preferences: Open Settings...**.  
+   a. Open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**). Type 'Preferences: Open Settings (UI)' and select **Preferences: Open Settings...**.  
    
    b. In the search bar, type:
 
@@ -192,7 +192,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
       adt predictive
       ```
 
-   c. Locate the setting **"Adt > Joule > Editor: Predictive Code Completion"** setting and enable the **Enable Joule predictive code completion as inline suggestions** checkbox.
+   c. Locate the setting **`Adt > Joule > Editor: Predictive Code Completion`** setting and enable the **`Enable Joule predictive code completion as inline suggestions`** checkbox.
 
    ![Predictive code completion setting](images/ex04_code_completion_setting.png)
 
