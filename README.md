@@ -94,14 +94,14 @@ Follow these steps to build a SAP Fiori App using the ADT MCP Server and a codin
 
 ## Known Issues
 
-You need to interact with the coding agent. So, in case of any implementation issues resulting from the coding agent, you need to ask the coding agent for correction.
+You need to interact with the coding agent. So, in case of any implementation issues or when accessing the backend, the coding agent asks you for allowence. You then need to confirm manually.
 
-When the coding agent interacts with the ABAP system, you need to allow access to the ABAP system manually. 
+In case of any resulting errors or issues, you need to interact with the coding agent through the chat and ask for solutions. 
 
 
 ## How to obtain support
 
-This session is managed by several experts of SAP. Please raise your hand if you have any questions. An expert will then come to you.
+This session is managed by several experts of SAP. Please raise your hand if you have any questions of feedback. An expert will then come to you.
 
 <!--
 [Create an issue](https://github.com/SAP-samples/abap-platform-ad160/issues) in this repository if you find a bug or have questions about the content.
