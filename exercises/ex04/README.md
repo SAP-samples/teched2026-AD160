@@ -8,7 +8,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 
 ### Exercises
 
-- [4.1 - Create an ABAP helper class](#exercise-41-create-an-ABAP-help-class)
+- [4.1 - Create an ABAP helper class](#exercise-41-create-an-abap-helper-class)
 - [4.2 - Define and Implement the Validation](#exercise-42-define-and-implement-the-validation)
 - [4.3 - Preview and Test the Enhanced Travel App](#exercise-43-preview-and-test-the-enhanced-travel-app)
 - [Summary & Next Exercise](#summary--next-exercise)
@@ -100,7 +100,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the behaviour definition **'ZR_TRAVEL###'**, that is provided in the **Core Data Services** folder, in the editor. 
+1. Open the behavior definition **'ZR_TRAVEL###'**, that is provided in the **Core Data Services** folder, in the editor. 
 
    ![Display of the behavior definition in the Explorer](images/ex04_open_zrtravel_cds.png)  
 
@@ -117,7 +117,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 
    Add the validation to the prepare action.
    
-   Ask for reviewing changes before proceeding with activation.
+   Ask to review changes before proceeding with the activation.
    ```
 
 3. Your coding agent will propose changes to both the behavior definition and the implementation class. 
@@ -184,15 +184,15 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
 
    To use predictive code completion, you need to enable the respective setting at first. Proceed as follows:
 
-   a. Open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**). Type 'Preferences: Open Settings (UI)' and select **Preferences: Open Settings...**.  
+   a. Open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**) and type 'Preferences: Open Settings (UI)'. Select **Preferences: Open Settings...**.  
    
    b. In the search bar, type:
 
       ```
-      adt code completion6
+      adt predictive
       ```
 
-   c. Locate the setting **`Adt > Joule > Editor: Predictive Code Completion`** setting and enable the **`Enable Joule predictive code completion as inline suggestions`** checkbox.
+   c. Locate the setting **"Adt > Joule > Editor: Predictive Code Completion"** setting and enable the **Enable Joule predictive code completion as inline suggestions** checkbox.
 
    ![Predictive code completion setting](images/ex04_code_completion_setting.png)
 

@@ -9,7 +9,7 @@ Before building your app, you need to set up your development environment in Vis
 
 In this exercise, you prepare your PC/laptop to run this tutorial.
 
-> ℹ️ **Info**: If you participate an SAP event, such as SAP TechEd, pre-configured laptops are provided. So, only then VS Code, the [**ABAP Development Tools for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension, and GitHub Copilot is installed and prepared for you.
+> ℹ️ **Info**: If you participate in an SAP event, such as SAP TechEd, pre-configured laptops are provided. So, only then VS Code, the [**ABAP Development Tools for VS Code**](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode) extension, and GitHub Copilot is installed and prepared for you.
 
 <!--
 > ℹ️ **Info**: If you participate an SAP event, such as America's SAP Users' Group (ASUG), you should have installed **Visual Studio Code**, the **ABAP Development Tools for VS Code** extension, and **GitHub Copilot** as coding agent.  
@@ -63,7 +63,7 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
   <tr>
     <td>Exercise ABAP Package</td>
     <td>ZAD160_AI_DEMO_### (where '###' is your assigned group ID)
-      <br/><br><i>Don't forget to replace all occurences of the placeholder '###' with your assigned location and group ID in the exercise steps below.</i></td>
+      <br/><br><i>Don't forget to replace all occurrences of the placeholder '###' with your assigned location and group ID in the exercise steps below.</i></td>
   </tr>
 </table>
 
@@ -102,7 +102,7 @@ Ensure that your ABAP system contains and has access to the [ABAP Flight Referen
 ## Exercise 0.1: Open the System URL of the Business AI Platform, ABAP Environment 
 [^Top of page](#)
 
-In this exercise, you will enter the short link, which is provided in the hand-outs, in a browser. As a result, the URL will be resolved and you will be challenged to authenticate against the SAP Teched Identity Provider using the credentials that you will find on the hand-outs as well.
+In this exercise, you will enter the short link, which is provided in the hand-outs, in a browser. As a result, the URL will be resolved and you will be challenged to authenticate against the SAP TechEd Identity Provider using the credentials that you will find on the hand-outs as well.
 
 <details>
   <summary>🔵 Click to expand!</summary>
@@ -259,7 +259,7 @@ The destination appears in the workspace in the **Explorer** on the left.
 
 ![Display of the added destination](images/ex0_system_explorer_not_logged-on.png)
 
-> ⚠️ Here is a summery of the relevant steps and data to be used: 
+> ⚠️ Here is a summary of the relevant steps and data to be used: 
 
    ```
    Command Palette → 'ABAP: New Destination...'
@@ -353,7 +353,7 @@ The destination appears in the workspace.
 
 4. Confirm with **`Enter`**.
 
-    The loggon will be confirmed and your user will be logged on the ABAP system.
+    The logon will be confirmed and your user will be logged on the ABAP system.
 
     ![Success message in your browser](images/ex0_log-on_adt_page.png)
 
@@ -486,7 +486,7 @@ The package will be opened in the **Explorer**.
    
 6. Verify the package **`ZAD160_AI_DEMO_###`** if it appears in the **Explorer** under `ZLOCAL`.
 
->ℹ️ **Note**: If the packge does **not** appear in the **Explorer**, open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**). Type '>ABAP: Add Package as Folder to Workspace' and press **Enter**. Select then the relevant destination from proposal list and confirm with **Enter**. 
+>ℹ️ **Note**: If the package does **not** appear in the **Explorer**, open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**). Type '>ABAP: Add Package as Folder to Workspace' and press **Enter**. Select then the relevant destination from proposal list and confirm with **Enter**. 
 
 </details>
 
@@ -563,7 +563,7 @@ Open ADT for VS Code and get familiar with the [ADT extension](https://help.sap.
 
 ### Navigating within your ABAP system
 
-You have the following possiblities:
+You have the following possibilities:
 
 1. In the **Explorer**, expand the system folder of your destination.
 

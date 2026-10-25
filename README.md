@@ -41,13 +41,13 @@ To complete the practical exercises, you need:
 
 >> #### ⚠ Exception regarding SAP-led events, such as "ABAP Developer Day", "SAP TechEd", "SAP CodeJam", and so on:
 >> → A dedicated ABAP system* for the hands-on session participants will be provided.  
->> → At dedicated SAP events, SAP will provide laptops. In this case, all the relevant software is already installed. This also includes a license for **GitHub Copilot** extension as **coding agend** in Visual Studio Code.  
+>> → At dedicated SAP events, SAP will provide laptops. In this case, all the relevant software is already installed. This also includes a license for **GitHub Copilot** extension as **coding agent** in Visual Studio Code.  
 >> → Access to the ABAP system* details for the session will be provided by the SAP instructors during the session.
 
 
 ## Overview
 
-> In this hands-on session, you will learn how to use the **ADT MCP Server** to build a transactional SAP Fiori elements app entirely from Visual Studio Code an the ABAP Development Tools for Visual Studio Code extension — using AI-powered generation, code enhancement, and ABAP Unit test support — powered by ABAP Cloud and the ABAP RESTful Application Programming Model (RAP).
+> In this hands-on session, you will learn how to use the **ADT MCP Server** to build a transactional SAP Fiori elements app entirely from Visual Studio Code and the ABAP Development Tools for Visual Studio Code extension — using AI-powered generation, code enhancement, and ABAP Unit test support — powered by ABAP Cloud and the ABAP RESTful Application Programming Model (RAP).
 
 <details>
   <summary>🔵 Click to expand!</summary>
@@ -64,7 +64,7 @@ To complete the practical exercises, you need:
   - Run ABAP Unit tests from Visual Studio Code.  
 
   and optionally, to ...
-  - Debugg the app from Visual Studio Code.
+  - Debug the app from Visual Studio Code.
   - Adding the implementation of a new field to an existing RAP UI service using the **coding agent**.
 
 </details>
@@ -94,14 +94,14 @@ Follow these steps to build a SAP Fiori App using the ADT MCP Server and a codin
 
 ## Known Issues
 
-You need to interact with the coding agent. So, in case of any implementation issues or when accessing the backend, the coding agent asks you for allowence. You then need to confirm manually.
+You need to interact with the coding agent. So, in case of any implementation issues resulting from the coding agent, you need to ask the coding agent for correction.
 
-In case of any resulting errors or issues, you need to interact with the coding agent through the chat and ask for solutions. 
+When the coding agent interacts with the ABAP system, you need to allow access to the ABAP system manually. 
 
 
 ## How to obtain support
 
-This session is managed by several experts of SAP. Please raise your hand if you have any questions of feedback. An expert will then come to you.
+This session is managed by several experts of SAP. Please raise your hand if you have any questions. An expert will then come to you.
 
 <!--
 [Create an issue](https://github.com/SAP-samples/abap-platform-ad160/issues) in this repository if you find a bug or have questions about the content.
@@ -112,7 +112,7 @@ For additional support, [ask a question](https://answers.sap.com/questions/ask.h
 
 ## Further Information
 
-You can find more information about **ABAP AI**, **ABAP Cloud**, **RAP**, and **ADT for Visual Studio Code** here:
+You can find more information about ABAP AI, ABAP Cloud, RAP, and ADT for Visual Studio Code here:
 
 - [AI in ABAP Cloud](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/generative-ai-in-abap-cloud?locale=en-US)
 - [Agentic AI for ABAP Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/agentic-ai-development?locale=en-US)
@@ -124,13 +124,9 @@ You can find more information about **ABAP AI**, **ABAP Cloud**, **RAP**, and **
 - [Getting Started with ABAP RESTful Application Programming Model (RAP)](https://pages.community.sap.com/topics/abap/rap)
 
 ## Contributing
-
 If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
 
 ## License
-
 Copyright (c) 2026 SAP SE or an SAP affiliate company and abap-platform-ad160 contributors. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file; you may not use any file of this project except in compliance with the License.
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the LICENSE for the specific language governing permissions and limitations under the License.
-
----

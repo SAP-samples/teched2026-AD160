@@ -34,7 +34,7 @@ The ADT for Visual Studio Code extension enables you use the **ABAP Debugger** i
 | **Call Stack** | To see the full call hierarchy and jump to any frame |
 | **Logpoints** | To print a message without stopping execution (no need to modify code) |
 
-The ABAP Debugger works with all ABAP object types that are native intgrated in ADT for Visual Studio Code.
+The ABAP Debugger works with all ABAP object types that are natively integrated in ADT for Visual Studio Code.
 
 > **Further reading**: [Visual Studio Code Run and Debug Documentation](https://code.visualstudio.com/docs/editor/debugging) and [ABAP Debugger](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/abap-debugger) in the help documentation
 
