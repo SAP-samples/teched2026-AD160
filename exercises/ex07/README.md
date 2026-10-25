@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this exercise, you will add a new field and its business logic to the generated RAP UI service using a coding agent, e.g. GitHub Copilot. 
+In this exercise, you will add a new field and implement its business logic in the generated RAP UI service using a coding agent, e.g. GitHub Copilot. 
 
 ### Exercises
 
@@ -44,7 +44,7 @@ The implementation shall be performed using a coding agent, e.g. GitHub Copilot,
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the **Chat** (**'Ctrl+Shift+I'** / **'Cmd+Shift+I'**) view.
+1. Open the **Chat** (**`Ctrl+Shift+I`** / **`Cmd+Shift+I`**) view.
 
 2. In the **Chat** view, use the **Agent** mode and type:
 
@@ -82,7 +82,7 @@ The implementation shall be performed using a coding agent, e.g. GitHub Copilot,
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the **Chat** (**'Ctrl+Shift+I'** / **'Cmd+Shift+I'**) view.
+1. Open the **Chat** (**`Ctrl+Shift+I`** / **`Cmd+Shift+I`**) view.
 
 2. In the **Chat** view, use the **Agent** mode and type:
 
@@ -166,7 +166,7 @@ In addition, you can test the implementation of the field:
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the **Chat** (**'Ctrl+Shift+I'** / **'Cmd+Shift+I'**) view.
+1. Open the **Chat** (**`Ctrl+Shift+I`** / **`Cmd+Shift+I`**) view.
 
 2. In the **Chat** view, use the **Agent** mode and type:  
 
@@ -203,7 +203,7 @@ To achieve a better user experience for users, the content of the field **Carbon
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the **Chat** (**'Ctrl+Shift+I'** / **'Cmd+Shift+I'**) view.
+1. Open the **Chat** (**`Ctrl+Shift+I`** / **`Cmd+Shift+I`**) view.
 
 2. In the **Chat** view, use the **Agent** mode and type:  
 
