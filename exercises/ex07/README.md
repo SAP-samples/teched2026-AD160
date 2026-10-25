@@ -268,7 +268,7 @@ In this exercise, you've:
 Over the course of AD160, you have:
 
 1. ✅ Set up Visual Studio Code with the ADT extension and connected to an ABAP system
-2. ✅ Enabled and configured the ADT MCP Server with your coding agent
+2. ✅ Verified the enablement of the ADT MCP Server with your coding agent
 3. ✅ Generated a complete RAP UI service using AI-driven ADT MCP tool calls
 4. ✅ Explored and adjusted the generated artifacts in Visual Studio Code
 5. ✅ Published the service and previewed the app in the default browser
