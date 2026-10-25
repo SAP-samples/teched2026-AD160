@@ -44,7 +44,7 @@ The implementation shall be performed using a coding agent, e.g. GitHub Copilot,
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the **Chat** (**`Ctrl+Shift+I`** / **`Cmd+Shift+I`**) view.
+1. Open the **Chat** (**`Ctrl+Shift+I`** / macOS: **`Cmd+Shift+I`**) view.
 
 2. In the **Chat** view, use the **Agent** mode and type:
 
@@ -77,12 +77,12 @@ The implementation shall be performed using a coding agent, e.g. GitHub Copilot,
 ## Exercise 7.2: Extend the ABAP Data Model
 [^Top of page](#)
 
-> You want to add the new field and its metadata in the relevant development objects.
+> You want to add the new field and implement its metadata in the relevant development objects.
 
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the **Chat** (**`Ctrl+Shift+I`** / **`Cmd+Shift+I`**) view.
+1. Open the **Chat** (**`Ctrl+Shift+I`** / macOS: **`Cmd+Shift+I`**) view.
 
 2. In the **Chat** view, use the **Agent** mode and type:
 
@@ -92,7 +92,7 @@ The implementation shall be performed using a coding agent, e.g. GitHub Copilot,
    Update all required database tables, CDS artifacts, and CDS metadata extensions.
    ```
 
-The AI changes and activates the following development objects:
+The coding agent changes and activates the following development objects:
    - ZR_TRAVEL (root table entity)
    - ZR_TRAVEL_D (draft table entity)
    - ZC_TRAVEL (CDS projection view)
@@ -111,8 +111,7 @@ In these objects, the AI adda the new field as follows:
 ## Exercise 7.3: Preview and Test the App
 [^Top of page](#)
 
->Test if the extension and the UI annotations are available in the app.  
->To do this, open the app in the default browser and test the behavior of the AI-generated source code.
+>Test if the extension and the UI annotations are available in the app. To do this, open the app in the default browser and verify the behavior of the AI-generated source code.
 
 <details>
   <summary>🔵 Click to expand!</summary>
@@ -144,7 +143,7 @@ In addition, you can test the implementation of the field:
   >  ![Display the settings of app](images/ex07_settings_app.png)
 
 
-2. Display the element information of the type to get more details about the new field.  
+2. Display the element information of the type to get more details about the new field as follows:  
 
     a. Open a development object where the field **CarbonFootprint** has been added.
 
@@ -166,7 +165,7 @@ In addition, you can test the implementation of the field:
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the **Chat** (**`Ctrl+Shift+I`** / **`Cmd+Shift+I`**) view.
+1. Open the **Chat** (**`Ctrl+Shift+I`** / macOS: **`Cmd+Shift+I`**) view.
 
 2. In the **Chat** view, use the **Agent** mode and type:  
 
@@ -203,7 +202,7 @@ To achieve a better user experience for users, the content of the field **Carbon
 <details>
   <summary>🔵 Click to expand!</summary>
 
-1. Open the **Chat** (**`Ctrl+Shift+I`** / **`Cmd+Shift+I`**) view.
+1. Open the **Chat** (**`Ctrl+Shift+I`** / macOS: **`Cmd+Shift+I`**) view.
 
 2. In the **Chat** view, use the **Agent** mode and type:  
 
@@ -218,25 +217,24 @@ Add side effects so that field CarbonFoodPrint gets reloaded when field bookingf
 ## Exercise 7.6: Review the Implementation and Re-Test the App again
 [^Top of page](#)
 
->Test the behavior of the generated source code again.  
->Review the current changes related to field **CarbonFootprint**. 
+>Test the behavior of the generated source code again. Review the current changes related to field **CarbonFootprint**. 
 
-Verify:  
-      - side effects  
-      - exposure in the RAP UI service 
-      - UI visibility  
-      - syntax issues  
+Verify ...  
+    - side effects  
+    - exposure in the RAP UI service 
+    - UI visibility  
+    - syntax issues  
 
 <details>
   <summary>🔵 Click to expand!</summary>
 
 1. Open the default browser where the app is currently running.
 
-2. Test the app if side effects are considered:  
+2. Verify the app if side effects are considered:  
 
     a. Open the app.
     
-    The card that is initially displayed.
+    The card is initially displayed.
 
     b. Open the entry you have created.
 
@@ -255,7 +253,7 @@ Verify:
 
 In this exercise, you've:
 - analyzed the relevant business objects about the impact when adding a new field
-- started implementing the ABAP data model extension.
+- started implementing a ABAP data model extension.
 - implemented the business logic by calculating the value automatically.
 - exposed the field by making the field available through the service.
 - adapted the UI annotations to display the field in the object page and list report.
