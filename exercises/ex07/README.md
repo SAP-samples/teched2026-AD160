@@ -207,7 +207,7 @@ To achieve a better user experience for users, the content of the field **Carbon
 2. In the **Chat** view, use the **Agent** mode and type:  
 
 ```markdown  
-Add side effects so that field CarbonFoodPrint gets reloaded when field bookingfee has been updated.
+Implement side effects that refresh the 'CarbonFoodPrint' field after the 'bookingfee' field has been updated.
 ```
 
 </details>
