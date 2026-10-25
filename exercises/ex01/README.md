@@ -78,25 +78,32 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
 <details>
   <summary>🔵 Click to expand</summary>
 
-1. Open the settings of **Visual Studio Code** as follows:  
+1. Open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**).
 
-   a. Open the **Command Palette** with **`Ctrl+Shift+P`** (macOS: **`Cmd+Shift+P`**)  
-   b. Type **Preferences: Open Settings (UI)** and select the finding.
+2. Type **Preferences: Open Settings (UI)** and select the finding from the list.
+
+   The **Settings** landing page is opened.
 
 2. In the search bar, type:
+
    ```
    adt mcp
    ```
-    The findings in the **Extensions > ABAP Development** node are displayed.
+   
+   ![Search bar on the Settings page.](images/ex01_settings_vs_code_initial.png)
+
+   The findings in the **Extensions > ABAP Development** node are displayed.
 
 3.  Locate the **Adt: Enable MCP Server** setting (or similar) and verify that this checkbox has been checked.
 
-      ![ADT MCP Server setting enabled](images/ex01_adt_settings_enable_mcp.png)
+   ![ADT MCP Server setting enabled](images/ex01_adt_settings_enable_mcp.png)
 
-      ℹ️ **Hint**: You can also switch to JSON mode (click the '{}' icon top-right in settings) and add:  
-      ```
-      json 'adt.mcpServer.enabled': true
-      ```
+   ℹ️ **Hint**: You can also switch to JSON mode (click the '{}' icon top-right in settings) and add:  
+   
+   ```
+   json 'adt.mcpServer.enabled': true
+   ```
+   
 <!--
 4. Optionally, you can configure the **MCP server port** (default: '2236').  
    > ℹ️ **Note**: Only change this if port 2236 is occupied on your machine. Proceed as follows:  

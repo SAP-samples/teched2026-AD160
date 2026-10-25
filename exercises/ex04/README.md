@@ -189,7 +189,7 @@ In this exercise, you will use your coding agent in **Agent** mode to define and
    b. In the search bar, type:
 
       ```
-      adt code completion
+      adt code completion6
       ```
 
    c. Locate the setting **`Adt > Joule > Editor: Predictive Code Completion`** setting and enable the **`Enable Joule predictive code completion as inline suggestions`** checkbox.
