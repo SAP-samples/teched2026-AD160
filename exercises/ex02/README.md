@@ -58,7 +58,7 @@ In this hands-on session, the ABAP Cloud Generator is exposed with an underlying
    
    As a result, the relevant and available generators are listed and explained in the **Chat**.
 
-   ![Generators listed by MCP tool](images/ex02_available_generators.png)
+   ![Generators listed by MCP tool](images/ex02_available_generators1.png)
 
    > ℹ️ **Note**:  In general, you can open a new chat if you have finished a development scenario and you want to start a new one. To do this, you can click the plus (+) icon from the toolbar on top of the **Chat** view.
 
