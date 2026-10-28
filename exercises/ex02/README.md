@@ -113,6 +113,7 @@ In this hands-on session, the ABAP Cloud Generator is exposed with an underlying
    - Entity 2: Booking, based on the structure /DMO/BOOKING_DATA (child of Travel)
    - All generated object names should use the suffix "###".
    - Generate database tables as datasource.
+   - You must not use table entities.
    ```
 
    > ℹ️ **Note**: The number of the suffix can be found as group ID in the handout.
