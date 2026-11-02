@@ -60,8 +60,9 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
 ### Exercises
 
 - [1.1 - Verify the Enablement of the ADT MCP Server](#exercise-11-verify-the-enablement-of-the-adt-mcp-server)
-- [1.2 - Verify the ADT MCP Server is Running](#exercise-12-verify-the-adt-mcp-server-is-running)
-- [1.3 - Verify the ADT MCP Tools in your coding agent](#exercise-13-verify-the-adt-mcp-tools-in-your-coding-agent)
+- [1.2 Add the Destination to the Allowlist](#exercise-12-add-the-destination-to-the-allowlist)
+- [1.3 - Verify the ADT MCP Server is Running](#exercise-13-verify-the-adt-mcp-server-is-running)
+- [1.4 - Verify the ADT MCP Tools in your coding agent](#exercise-14-verify-the-adt-mcp-tools-in-your-coding-agent)
 - [Summary & Next Exercise](#summary--next-exercise)
 
 > ℹ️ **Reminder**: Don't forget to replace all occurrences of the placeholder **'###'** with your group ID in the exercise steps below.
@@ -124,6 +125,41 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
    > ![Sample for selecting the relevant destination](images/ex01_adt_mcp_allowlist.png)
    -->
    
+</details>
+
+---
+
+## Exercise: 1.2 Add the Destination to the Allowlist
+[^Top of page](#)
+
+> Allow the ADT MCP tools to access your destination.
+   
+   > ℹ️ **Note**: To enable ADT MCP tools access to destinations, packages, and namespaces, you need to add them to the allowlist. Then, the ADT MCP can open, read, and edit development objects.
+
+<details>
+  <summary>🔵 Click to expand</summary>
+
+1. Reopen the ADT MCP settings. See [Enable the ADT MCP Server](#exercise-11-enable-the-adt-mcp-server)
+
+2.  Locate the **Adt > Mcp Server: Allowlist Enabled** setting (or similar) and select the checkbox.
+
+   ![Checkbox to enable the allowlist](images/ex01_adt_mcp_allowlist1.png)
+
+4.  Check the **Edit** icon in the section **Adt > Mcp Server: Allowlist** below.
+
+   ![ADT MCP Server setting enabled](images/ex01_adt_mcp_allowlist2a.png)
+
+
+5. Enter the name of the destination as **Value** for the **items** 'destinations'. 
+
+   ![ADT MCP Server setting enabled](images/ex01_adt_mcp_allowlist3.png)
+
+6. Confirm with **OK**.
+
+The destination is added to the allowlist and can now be accessed by the ADT MCP tools.
+
+![Display of the allowed destinations](images/ex01_adt_mcp_allowlist4.png)
+
 </details>
 
 ---
