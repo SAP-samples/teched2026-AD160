@@ -33,11 +33,9 @@ In this exercise, you prepare your PC/laptop to run this tutorial.
 > We’ve got sessions running in several locations. Please pick the one that’s right for you!
 
 > **📌 Replace the three digits to get your group number `###`:**
->  - `ZAD160_AI_DEMO_###` → 001-041 → SAP TechEd Berlin, October 27-29, 2026
-<!--
->  - `ZAD160_AI_DEMO_###` → 042-080 → SAP TechEd Berlin, October 27-29, 2026
->  - `ZAD160_AI_DEMO_###` → 001-041 → SAP ASUG Tech Connect, Fort Worth, November 2-4, 2026
--->
+
+>  - `ZAD160_AI_DEMO_###` → 101-171 → SAP ASUG Tech Connect, Fort Worth, November 2-4, 2026
+
 
 ---
 
