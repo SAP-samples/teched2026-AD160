@@ -1,6 +1,6 @@
 [Home - Workshops about the ABAP Cloud development model (ABAP Cloud)](https://github.com/SAP-samples/abap-platform-rap-workshops/blob/main/README.md)
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-ad160)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-ad160)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2026-AD160)](https://api.reuse.software/info/github.com/SAP-samples/teched2026-AD160)
 
 # AD160 - Build apps and web APIs with ABAP Cloud using agentic AI
 ## Description
