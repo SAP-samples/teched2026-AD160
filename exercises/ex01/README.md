@@ -60,7 +60,7 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
 ### Exercises
 
 - [1.1 - Verify the Enablement of the ADT MCP Server](#exercise-11-verify-the-enablement-of-the-adt-mcp-server)
-- [1.2 Add the Destination to the Allowlist](#exercise-12-add-the-destination-to-the-allowlist)
+- [1.2 - Add the Destination to the Allowlist](#exercise-12-add-the-destination-to-the-allowlist)
 - [1.3 - Verify the ADT MCP Server is Running](#exercise-13-verify-the-adt-mcp-server-is-running)
 - [1.4 - Verify the ADT MCP Tools in your coding agent](#exercise-14-verify-the-adt-mcp-tools-in-your-coding-agent)
 - [Summary & Next Exercise](#summary--next-exercise)
@@ -150,15 +150,21 @@ To use the ADT MCP Tools in ADT for VS Code, the ADT MCP Server needs to run. To
    ![ADT MCP Server setting enabled](images/ex01_adt_mcp_allowlist2a.png)
 
 
-5. Enter the name of the destination as **Value** for the **items** 'destinations'. 
+5. Enter the name of the destination or a star **`*`** as **Value** for the **item** 'destinations'. 
 
    ![ADT MCP Server setting enabled](images/ex01_adt_mcp_allowlist3.png)
 
 6. Confirm with **OK**.
 
-The destination is added to the allowlist and can now be accessed by the ADT MCP tools.
+7. Enter a star **`*`** as **Value** for the **item** 'packages-obejectChanges'. 
 
-![Display of the allowed destinations](images/ex01_adt_mcp_allowlist4.png)
+   ![ADT MCP Server setting enabled](images/ex01_access_restrictions_star.png)
+
+8. Confirm with **OK**.
+
+   All packages whose name start with a `Z`are added to the allowlist and can now be accessed by the ADT MCP tools.
+
+   ![Display of the allowed destinations](images/ex01_adt_mcp_allowlist4.png)
 
 </details>
 
